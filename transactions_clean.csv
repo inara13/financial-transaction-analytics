@@ -1,0 +1,1001 @@
+transaction_id,date,amount,category,merchant,city,status,month,month_num,hour,day_of_week,is_anomaly
+1,2025-01-01 00:00:00,70.39,Travel,TechNow,Miami,approved,January,1,0,Wednesday,False
+2,2025-01-01 06:00:00,451.52,Food,RoadEasy,Los Angeles,approved,January,1,6,Wednesday,True
+3,2025-01-01 12:00:00,197.51,Healthcare,StyleVault,Houston,flagged,January,1,12,Wednesday,False
+4,2025-01-01 18:00:00,136.94,Tech,RoadEasy,Miami,approved,January,1,18,Wednesday,False
+5,2025-01-02 00:00:00,25.44,Tech,TechNow,New York,approved,January,1,0,Thursday,False
+6,2025-01-02 06:00:00,25.44,Food,MediPlus,Los Angeles,approved,January,1,6,Thursday,False
+7,2025-01-02 12:00:00,8.98,Tech,StayPremium,Houston,approved,January,1,12,Thursday,False
+8,2025-01-02 18:00:00,301.68,Healthcare,AirElite,New York,declined,January,1,18,Thursday,False
+9,2025-01-03 00:00:00,137.86,Travel,StayPremium,New York,approved,January,1,0,Friday,False
+10,2025-01-03 06:00:00,184.69,Retail,StayPremium,New York,declined,January,1,6,Friday,False
+11,2025-01-03 12:00:00,3.12,Travel,MediPlus,New York,declined,January,1,12,Friday,False
+12,2025-01-03 18:00:00,525.53,Transport,RoadEasy,Miami,declined,January,1,18,Friday,True
+13,2025-01-04 00:00:00,267.96,Transport,AirElite,Miami,approved,January,1,0,Saturday,False
+14,2025-01-04 06:00:00,35.8,Travel,SkyBridge Travel,Miami,approved,January,1,6,Saturday,False
+15,2025-01-04 12:00:00,30.1,Tech,GourmetHub,Houston,flagged,January,1,12,Saturday,False
+16,2025-01-04 18:00:00,30.39,Transport,MediPlus,Houston,approved,January,1,18,Saturday,False
+17,2025-01-05 00:00:00,54.41,Travel,TechNow,Houston,approved,January,1,0,Sunday,False
+18,2025-01-05 06:00:00,111.59,Food,SkyBridge Travel,Chicago,flagged,January,1,6,Sunday,False
+19,2025-01-05 12:00:00,84.83,Healthcare,GourmetHub,Houston,flagged,January,1,12,Sunday,False
+20,2025-01-05 18:00:00,51.63,Travel,TechNow,Miami,declined,January,1,18,Sunday,False
+21,2025-01-06 00:00:00,141.96,Tech,StayPremium,Miami,flagged,January,1,0,Monday,False
+22,2025-01-06 06:00:00,22.54,Retail,StyleVault,Chicago,approved,January,1,6,Monday,False
+23,2025-01-06 12:00:00,51.83,Transport,TechNow,Chicago,approved,January,1,12,Monday,False
+24,2025-01-06 18:00:00,68.44,Transport,AirElite,Houston,flagged,January,1,18,Monday,False
+25,2025-01-07 00:00:00,91.34,Transport,AirElite,Los Angeles,approved,January,1,0,Tuesday,False
+26,2025-01-07 06:00:00,230.69,Retail,StyleVault,Chicago,approved,January,1,6,Tuesday,False
+27,2025-01-07 12:00:00,33.41,Healthcare,SkyBridge Travel,New York,approved,January,1,12,Tuesday,False
+28,2025-01-07 18:00:00,108.3,Healthcare,GourmetHub,Miami,approved,January,1,18,Tuesday,False
+29,2025-01-08 00:00:00,134.63,Retail,TechNow,New York,declined,January,1,0,Wednesday,False
+30,2025-01-08 06:00:00,7.13,Healthcare,AirElite,Miami,approved,January,1,6,Wednesday,False
+31,2025-01-08 12:00:00,140.3,Travel,SkyBridge Travel,Miami,declined,January,1,12,Wednesday,False
+32,2025-01-08 18:00:00,28.04,Food,StyleVault,Chicago,declined,January,1,18,Wednesday,False
+33,2025-01-09 00:00:00,10.09,Travel,RoadEasy,Chicago,approved,January,1,0,Thursday,False
+34,2025-01-09 06:00:00,446.05,Travel,MediPlus,New York,approved,January,1,6,Thursday,True
+35,2025-01-09 12:00:00,505.59,Travel,RoadEasy,Miami,approved,January,1,12,Thursday,True
+36,2025-01-09 18:00:00,247.85,Tech,RoadEasy,New York,approved,January,1,18,Thursday,False
+37,2025-01-10 00:00:00,54.49,Retail,AirElite,Los Angeles,approved,January,1,0,Friday,False
+38,2025-01-10 06:00:00,15.42,Tech,StayPremium,New York,approved,January,1,6,Friday,False
+39,2025-01-10 12:00:00,172.91,Travel,StayPremium,Houston,approved,January,1,12,Friday,False
+40,2025-01-10 18:00:00,87.01,Retail,StyleVault,New York,approved,January,1,18,Friday,False
+41,2025-01-11 00:00:00,19.52,Food,TechNow,Houston,declined,January,1,0,Saturday,False
+42,2025-01-11 06:00:00,102.53,Tech,StayPremium,Houston,declined,January,1,6,Saturday,False
+43,2025-01-11 12:00:00,5.25,Retail,RoadEasy,Houston,approved,January,1,12,Saturday,False
+44,2025-01-11 18:00:00,360.06,Food,StayPremium,Los Angeles,flagged,January,1,18,Saturday,False
+45,2025-01-12 00:00:00,44.92,Healthcare,RoadEasy,New York,approved,January,1,0,Sunday,False
+46,2025-01-12 06:00:00,162.94,Food,GourmetHub,New York,declined,January,1,6,Sunday,False
+47,2025-01-12 12:00:00,56.03,Travel,AirElite,Los Angeles,approved,January,1,12,Sunday,False
+48,2025-01-12 18:00:00,110.12,Travel,AirElite,Miami,approved,January,1,18,Sunday,False
+49,2025-01-13 00:00:00,118.68,Healthcare,TechNow,Chicago,approved,January,1,0,Monday,False
+50,2025-01-13 06:00:00,30.66,Travel,StayPremium,New York,flagged,January,1,6,Monday,False
+51,2025-01-13 12:00:00,523.92,Healthcare,StayPremium,Chicago,flagged,January,1,12,Monday,True
+52,2025-01-13 18:00:00,223.84,Food,MediPlus,Los Angeles,approved,January,1,18,Monday,False
+53,2025-01-14 00:00:00,420.76,Transport,SkyBridge Travel,Miami,declined,January,1,0,Tuesday,False
+54,2025-01-14 06:00:00,337.82,Tech,GourmetHub,Miami,approved,January,1,6,Tuesday,False
+55,2025-01-14 12:00:00,136.66,Transport,AirElite,Miami,approved,January,1,12,Tuesday,False
+56,2025-01-14 18:00:00,382.42,Retail,GourmetHub,Los Angeles,flagged,January,1,18,Tuesday,False
+57,2025-01-15 00:00:00,13.9,Tech,AirElite,Houston,approved,January,1,0,Wednesday,False
+58,2025-01-15 06:00:00,32.72,Retail,GourmetHub,Houston,declined,January,1,6,Wednesday,False
+59,2025-01-15 12:00:00,6.94,Retail,StyleVault,Chicago,flagged,January,1,12,Wednesday,False
+60,2025-01-15 18:00:00,59.03,Food,RoadEasy,Houston,approved,January,1,18,Wednesday,False
+61,2025-01-16 00:00:00,73.82,Healthcare,AirElite,Houston,declined,January,1,0,Thursday,False
+62,2025-01-16 06:00:00,47.48,Transport,GourmetHub,Miami,approved,January,1,6,Thursday,False
+63,2025-01-16 12:00:00,264.68,Tech,StayPremium,Miami,declined,January,1,12,Thursday,False
+64,2025-01-16 18:00:00,66.18,Retail,SkyBridge Travel,Chicago,flagged,January,1,18,Thursday,False
+65,2025-01-17 00:00:00,49.47,Retail,StyleVault,New York,approved,January,1,0,Friday,False
+66,2025-01-17 06:00:00,117.36,Tech,StyleVault,Chicago,approved,January,1,6,Friday,False
+67,2025-01-17 12:00:00,22.78,Travel,SkyBridge Travel,Chicago,approved,January,1,12,Friday,False
+68,2025-01-17 18:00:00,243.07,Travel,GourmetHub,Los Angeles,flagged,January,1,18,Friday,False
+69,2025-01-18 00:00:00,11.62,Retail,StayPremium,Los Angeles,approved,January,1,0,Saturday,False
+70,2025-01-18 06:00:00,650.12,Retail,TechNow,Chicago,declined,January,1,6,Saturday,True
+71,2025-01-18 12:00:00,221.92,Retail,SkyBridge Travel,Chicago,approved,January,1,12,Saturday,False
+72,2025-01-18 18:00:00,33.23,Travel,GourmetHub,Chicago,flagged,January,1,18,Saturday,False
+73,2025-01-19 00:00:00,0.83,Travel,SkyBridge Travel,Houston,flagged,January,1,0,Sunday,False
+74,2025-01-19 06:00:00,253.48,Travel,SkyBridge Travel,Los Angeles,approved,January,1,6,Sunday,False
+75,2025-01-19 12:00:00,184.06,Transport,AirElite,Chicago,declined,January,1,12,Sunday,False
+76,2025-01-19 18:00:00,195.85,Retail,GourmetHub,Miami,approved,January,1,18,Sunday,False
+77,2025-01-20 00:00:00,221.28,Retail,TechNow,Miami,flagged,January,1,0,Monday,False
+78,2025-01-20 06:00:00,11.54,Food,RoadEasy,Houston,flagged,January,1,6,Monday,False
+79,2025-01-20 12:00:00,66.58,Travel,AirElite,Houston,approved,January,1,12,Monday,False
+80,2025-01-20 18:00:00,18.47,Transport,SkyBridge Travel,New York,approved,January,1,18,Monday,False
+81,2025-01-21 00:00:00,298.28,Tech,RoadEasy,New York,approved,January,1,0,Tuesday,False
+82,2025-01-21 06:00:00,146.45,Travel,MediPlus,New York,flagged,January,1,6,Tuesday,False
+83,2025-01-21 12:00:00,60.27,Retail,RoadEasy,Houston,approved,January,1,12,Tuesday,False
+84,2025-01-21 18:00:00,9.85,Healthcare,SkyBridge Travel,Houston,approved,January,1,18,Tuesday,False
+85,2025-01-22 00:00:00,55.87,Transport,SkyBridge Travel,Houston,declined,January,1,0,Wednesday,False
+86,2025-01-22 06:00:00,59.0,Retail,StayPremium,Miami,approved,January,1,6,Wednesday,False
+87,2025-01-22 12:00:00,196.18,Food,GourmetHub,Houston,declined,January,1,12,Wednesday,False
+88,2025-01-22 18:00:00,152.23,Travel,GourmetHub,Miami,approved,January,1,18,Wednesday,False
+89,2025-01-23 00:00:00,327.34,Transport,AirElite,New York,approved,January,1,0,Thursday,False
+90,2025-01-23 06:00:00,95.86,Travel,TechNow,New York,approved,January,1,6,Thursday,False
+91,2025-01-23 12:00:00,19.11,Transport,AirElite,New York,approved,January,1,12,Thursday,False
+92,2025-01-23 18:00:00,187.37,Food,StyleVault,Chicago,approved,January,1,18,Thursday,False
+93,2025-01-24 00:00:00,214.56,Food,SkyBridge Travel,Chicago,declined,January,1,0,Friday,False
+94,2025-01-24 06:00:00,123.58,Food,RoadEasy,Los Angeles,approved,January,1,6,Friday,False
+95,2025-01-24 12:00:00,221.08,Travel,MediPlus,Los Angeles,approved,January,1,12,Friday,False
+96,2025-01-24 18:00:00,102.12,Travel,SkyBridge Travel,Los Angeles,approved,January,1,18,Friday,False
+97,2025-01-25 00:00:00,110.95,Travel,SkyBridge Travel,Chicago,approved,January,1,0,Saturday,False
+98,2025-01-25 06:00:00,83.67,Travel,AirElite,Chicago,approved,January,1,6,Saturday,False
+99,2025-01-25 12:00:00,3.86,Tech,MediPlus,Los Angeles,approved,January,1,12,Saturday,False
+100,2025-01-25 18:00:00,17.13,Retail,MediPlus,Los Angeles,approved,January,1,18,Saturday,False
+101,2025-01-26 00:00:00,4.79,Travel,MediPlus,Houston,flagged,January,1,0,Sunday,False
+102,2025-01-26 06:00:00,151.76,Transport,AirElite,Los Angeles,approved,January,1,6,Sunday,False
+103,2025-01-26 12:00:00,56.61,Healthcare,SkyBridge Travel,Houston,flagged,January,1,12,Sunday,False
+104,2025-01-26 18:00:00,106.57,Transport,AirElite,Miami,declined,January,1,18,Sunday,False
+105,2025-01-27 00:00:00,357.19,Transport,GourmetHub,Chicago,flagged,January,1,0,Monday,False
+106,2025-01-27 06:00:00,43.01,Travel,GourmetHub,Los Angeles,approved,January,1,6,Monday,False
+107,2025-01-27 12:00:00,79.24,Retail,AirElite,Chicago,flagged,January,1,12,Monday,False
+108,2025-01-27 18:00:00,211.31,Tech,MediPlus,Chicago,approved,January,1,18,Monday,False
+109,2025-01-28 00:00:00,38.97,Tech,StayPremium,Chicago,declined,January,1,0,Tuesday,False
+110,2025-01-28 06:00:00,12.02,Travel,SkyBridge Travel,Miami,approved,January,1,6,Tuesday,False
+111,2025-01-28 12:00:00,51.32,Tech,AirElite,New York,flagged,January,1,12,Tuesday,False
+112,2025-01-28 18:00:00,26.37,Travel,AirElite,Los Angeles,declined,January,1,18,Tuesday,False
+113,2025-01-29 00:00:00,398.24,Travel,AirElite,New York,declined,January,1,0,Wednesday,False
+114,2025-01-29 06:00:00,247.63,Food,StayPremium,New York,approved,January,1,6,Wednesday,False
+115,2025-01-29 12:00:00,150.52,Food,StayPremium,New York,flagged,January,1,12,Wednesday,False
+116,2025-01-29 18:00:00,307.73,Food,StyleVault,Chicago,declined,January,1,18,Wednesday,False
+117,2025-01-30 00:00:00,244.2,Travel,GourmetHub,Houston,declined,January,1,0,Thursday,False
+118,2025-01-30 06:00:00,30.97,Healthcare,RoadEasy,Chicago,approved,January,1,6,Thursday,False
+119,2025-01-30 12:00:00,334.62,Travel,MediPlus,Chicago,declined,January,1,12,Thursday,False
+120,2025-01-30 18:00:00,116.26,Travel,TechNow,New York,approved,January,1,18,Thursday,False
+121,2025-01-31 00:00:00,247.1,Healthcare,StayPremium,Chicago,flagged,January,1,0,Friday,False
+122,2025-01-31 06:00:00,339.64,Transport,RoadEasy,New York,flagged,January,1,6,Friday,False
+123,2025-01-31 12:00:00,57.41,Healthcare,StayPremium,Houston,flagged,January,1,12,Friday,False
+124,2025-01-31 18:00:00,17.49,Tech,MediPlus,Los Angeles,approved,January,1,18,Friday,False
+125,2025-02-01 00:00:00,38.8,Food,TechNow,New York,flagged,February,2,0,Saturday,False
+126,2025-02-01 06:00:00,83.56,Food,StyleVault,Houston,declined,February,2,6,Saturday,False
+127,2025-02-01 12:00:00,255.57,Travel,AirElite,Los Angeles,approved,February,2,12,Saturday,False
+128,2025-02-01 18:00:00,295.7,Retail,StyleVault,Miami,approved,February,2,18,Saturday,False
+129,2025-02-02 00:00:00,1.05,Retail,StayPremium,New York,approved,February,2,0,Sunday,False
+130,2025-02-02 06:00:00,107.23,Travel,StyleVault,New York,flagged,February,2,6,Sunday,False
+131,2025-02-02 12:00:00,81.04,Tech,RoadEasy,Miami,flagged,February,2,12,Sunday,False
+132,2025-02-02 18:00:00,37.68,Retail,SkyBridge Travel,Miami,approved,February,2,18,Sunday,False
+133,2025-02-03 00:00:00,19.15,Travel,StayPremium,New York,approved,February,2,0,Monday,False
+134,2025-02-03 06:00:00,61.79,Travel,StayPremium,Miami,approved,February,2,6,Monday,False
+135,2025-02-03 12:00:00,429.47,Tech,RoadEasy,Chicago,approved,February,2,12,Monday,False
+136,2025-02-03 18:00:00,58.56,Travel,GourmetHub,Los Angeles,flagged,February,2,18,Monday,False
+137,2025-02-04 00:00:00,109.72,Healthcare,TechNow,Los Angeles,approved,February,2,0,Tuesday,False
+138,2025-02-04 06:00:00,182.11,Retail,AirElite,Los Angeles,declined,February,2,6,Tuesday,False
+139,2025-02-04 12:00:00,67.8,Retail,RoadEasy,Chicago,declined,February,2,12,Tuesday,False
+140,2025-02-04 18:00:00,535.17,Food,TechNow,Miami,approved,February,2,18,Tuesday,True
+141,2025-02-05 00:00:00,492.3,Healthcare,MediPlus,Houston,flagged,February,2,0,Wednesday,True
+142,2025-02-05 06:00:00,43.51,Retail,TechNow,Miami,approved,February,2,6,Wednesday,False
+143,2025-02-05 12:00:00,103.15,Food,MediPlus,New York,flagged,February,2,12,Wednesday,False
+144,2025-02-05 18:00:00,53.69,Food,RoadEasy,Los Angeles,approved,February,2,18,Wednesday,False
+145,2025-02-06 00:00:00,50.29,Travel,StayPremium,Miami,approved,February,2,0,Thursday,False
+146,2025-02-06 06:00:00,5.64,Healthcare,StayPremium,Houston,flagged,February,2,6,Thursday,False
+147,2025-02-06 12:00:00,141.07,Tech,GourmetHub,New York,approved,February,2,12,Thursday,False
+148,2025-02-06 18:00:00,104.78,Food,RoadEasy,Chicago,approved,February,2,18,Thursday,False
+149,2025-02-07 00:00:00,7.93,Healthcare,MediPlus,Chicago,flagged,February,2,0,Friday,False
+150,2025-02-07 06:00:00,48.99,Healthcare,TechNow,Houston,flagged,February,2,6,Friday,False
+151,2025-02-07 12:00:00,358.33,Tech,TechNow,New York,approved,February,2,12,Friday,False
+152,2025-02-07 18:00:00,41.08,Healthcare,MediPlus,Los Angeles,approved,February,2,18,Friday,False
+153,2025-02-08 00:00:00,23.48,Tech,StyleVault,Miami,declined,February,2,0,Saturday,False
+154,2025-02-08 06:00:00,100.84,Tech,GourmetHub,New York,approved,February,2,6,Saturday,False
+155,2025-02-08 12:00:00,636.61,Food,SkyBridge Travel,Chicago,approved,February,2,12,Saturday,True
+156,2025-02-08 18:00:00,41.57,Tech,StayPremium,Houston,flagged,February,2,18,Saturday,False
+157,2025-02-09 00:00:00,167.27,Travel,AirElite,Houston,approved,February,2,0,Sunday,False
+158,2025-02-09 06:00:00,215.08,Healthcare,TechNow,Miami,approved,February,2,6,Sunday,False
+159,2025-02-09 12:00:00,40.7,Healthcare,AirElite,Houston,declined,February,2,12,Sunday,False
+160,2025-02-09 18:00:00,195.41,Travel,SkyBridge Travel,Houston,flagged,February,2,18,Sunday,False
+161,2025-02-10 00:00:00,68.78,Healthcare,RoadEasy,New York,approved,February,2,0,Monday,False
+162,2025-02-10 06:00:00,150.08,Travel,AirElite,Los Angeles,approved,February,2,6,Monday,False
+163,2025-02-10 12:00:00,150.58,Retail,SkyBridge Travel,Miami,approved,February,2,12,Monday,False
+164,2025-02-10 18:00:00,115.11,Tech,StayPremium,New York,declined,February,2,18,Monday,False
+165,2025-02-11 00:00:00,14.19,Travel,MediPlus,Los Angeles,approved,February,2,0,Tuesday,False
+166,2025-02-11 06:00:00,270.55,Tech,StyleVault,New York,approved,February,2,6,Tuesday,False
+167,2025-02-11 12:00:00,58.02,Healthcare,StayPremium,New York,approved,February,2,12,Tuesday,False
+168,2025-02-11 18:00:00,30.96,Food,TechNow,Houston,approved,February,2,18,Tuesday,False
+169,2025-02-12 00:00:00,6.24,Travel,SkyBridge Travel,Los Angeles,flagged,February,2,0,Wednesday,False
+170,2025-02-12 06:00:00,134.07,Retail,AirElite,Miami,flagged,February,2,6,Wednesday,False
+171,2025-02-12 12:00:00,169.78,Food,TechNow,Miami,flagged,February,2,12,Wednesday,False
+172,2025-02-12 18:00:00,2.51,Transport,StyleVault,Los Angeles,approved,February,2,18,Wednesday,False
+173,2025-02-13 00:00:00,107.64,Food,MediPlus,Houston,approved,February,2,0,Thursday,False
+174,2025-02-13 06:00:00,38.52,Travel,RoadEasy,Chicago,approved,February,2,6,Thursday,False
+175,2025-02-13 12:00:00,155.42,Food,TechNow,New York,declined,February,2,12,Thursday,False
+176,2025-02-13 18:00:00,28.74,Food,RoadEasy,Houston,flagged,February,2,18,Thursday,False
+177,2025-02-14 00:00:00,176.13,Tech,SkyBridge Travel,Los Angeles,flagged,February,2,0,Friday,False
+178,2025-02-14 06:00:00,73.34,Travel,StyleVault,New York,approved,February,2,6,Friday,False
+179,2025-02-14 12:00:00,414.05,Tech,AirElite,Miami,approved,February,2,12,Friday,False
+180,2025-02-14 18:00:00,22.19,Food,StyleVault,Chicago,approved,February,2,18,Friday,False
+181,2025-02-15 00:00:00,62.57,Transport,StyleVault,Miami,approved,February,2,0,Saturday,False
+182,2025-02-15 06:00:00,18.07,Retail,GourmetHub,Los Angeles,flagged,February,2,6,Saturday,False
+183,2025-02-15 12:00:00,387.93,Food,StyleVault,New York,approved,February,2,12,Saturday,False
+184,2025-02-15 18:00:00,314.75,Transport,StyleVault,Los Angeles,approved,February,2,18,Saturday,False
+185,2025-02-16 00:00:00,44.75,Travel,StayPremium,New York,declined,February,2,0,Sunday,False
+186,2025-02-16 06:00:00,161.81,Transport,TechNow,Houston,approved,February,2,6,Sunday,False
+187,2025-02-16 12:00:00,254.92,Tech,AirElite,Chicago,approved,February,2,12,Sunday,False
+188,2025-02-16 18:00:00,121.52,Travel,StayPremium,Houston,approved,February,2,18,Sunday,False
+189,2025-02-17 00:00:00,113.14,Retail,StayPremium,Houston,declined,February,2,0,Monday,False
+190,2025-02-17 06:00:00,41.53,Tech,TechNow,Los Angeles,flagged,February,2,6,Monday,False
+191,2025-02-17 12:00:00,14.66,Travel,TechNow,Chicago,approved,February,2,12,Monday,False
+192,2025-02-17 18:00:00,341.27,Food,SkyBridge Travel,New York,flagged,February,2,18,Monday,False
+193,2025-02-18 00:00:00,346.02,Retail,TechNow,New York,approved,February,2,0,Tuesday,False
+194,2025-02-18 06:00:00,150.4,Food,GourmetHub,Miami,flagged,February,2,6,Tuesday,False
+195,2025-02-18 12:00:00,62.11,Travel,GourmetHub,New York,declined,February,2,12,Tuesday,False
+196,2025-02-18 18:00:00,64.44,Healthcare,StayPremium,Los Angeles,approved,February,2,18,Tuesday,False
+197,2025-02-19 00:00:00,194.17,Transport,RoadEasy,Houston,declined,February,2,0,Wednesday,False
+198,2025-02-19 06:00:00,341.11,Transport,SkyBridge Travel,Houston,approved,February,2,6,Wednesday,False
+199,2025-02-19 12:00:00,327.17,Tech,RoadEasy,Houston,approved,February,2,12,Wednesday,False
+200,2025-02-19 18:00:00,227.03,Travel,RoadEasy,Chicago,declined,February,2,18,Wednesday,False
+201,2025-02-20 00:00:00,154.1,Tech,StayPremium,New York,approved,February,2,0,Thursday,False
+202,2025-02-20 06:00:00,13.18,Travel,MediPlus,Los Angeles,approved,February,2,6,Thursday,False
+203,2025-02-20 12:00:00,26.44,Travel,StayPremium,Chicago,approved,February,2,12,Thursday,False
+204,2025-02-20 18:00:00,343.23,Retail,AirElite,Miami,flagged,February,2,18,Thursday,False
+205,2025-02-21 00:00:00,139.87,Retail,AirElite,Los Angeles,approved,February,2,0,Friday,False
+206,2025-02-21 06:00:00,1.39,Tech,TechNow,Los Angeles,approved,February,2,6,Friday,False
+207,2025-02-21 12:00:00,16.05,Tech,TechNow,Los Angeles,approved,February,2,12,Friday,False
+208,2025-02-21 18:00:00,163.37,Retail,MediPlus,Houston,approved,February,2,18,Friday,False
+209,2025-02-22 00:00:00,0.76,Travel,TechNow,Los Angeles,flagged,February,2,0,Saturday,False
+210,2025-02-22 06:00:00,26.3,Transport,AirElite,New York,declined,February,2,6,Saturday,False
+211,2025-02-22 12:00:00,119.35,Retail,RoadEasy,Los Angeles,flagged,February,2,12,Saturday,False
+212,2025-02-22 18:00:00,176.6,Retail,StayPremium,Houston,approved,February,2,18,Saturday,False
+213,2025-02-23 00:00:00,158.32,Travel,StyleVault,Los Angeles,approved,February,2,0,Sunday,False
+214,2025-02-23 06:00:00,38.09,Tech,GourmetHub,Miami,approved,February,2,6,Sunday,False
+215,2025-02-23 12:00:00,186.81,Tech,StyleVault,Miami,approved,February,2,12,Sunday,False
+216,2025-02-23 18:00:00,40.62,Travel,StyleVault,Houston,approved,February,2,18,Sunday,False
+217,2025-02-24 00:00:00,59.05,Travel,AirElite,New York,approved,February,2,0,Monday,False
+218,2025-02-24 06:00:00,205.85,Tech,StyleVault,New York,approved,February,2,6,Monday,False
+219,2025-02-24 12:00:00,157.32,Food,StayPremium,Chicago,declined,February,2,12,Monday,False
+220,2025-02-24 18:00:00,283.79,Travel,MediPlus,Houston,approved,February,2,18,Monday,False
+221,2025-02-25 00:00:00,160.77,Transport,SkyBridge Travel,Los Angeles,declined,February,2,0,Tuesday,False
+222,2025-02-25 06:00:00,126.01,Travel,TechNow,Houston,approved,February,2,6,Tuesday,False
+223,2025-02-25 12:00:00,14.75,Retail,SkyBridge Travel,Chicago,approved,February,2,12,Tuesday,False
+224,2025-02-25 18:00:00,68.76,Transport,RoadEasy,Houston,flagged,February,2,18,Tuesday,False
+225,2025-02-26 00:00:00,46.22,Retail,StayPremium,Houston,approved,February,2,0,Wednesday,False
+226,2025-02-26 06:00:00,41.96,Food,StayPremium,Chicago,declined,February,2,6,Wednesday,False
+227,2025-02-26 12:00:00,541.85,Retail,GourmetHub,New York,approved,February,2,12,Wednesday,True
+228,2025-02-26 18:00:00,74.91,Travel,StayPremium,Los Angeles,approved,February,2,18,Wednesday,False
+229,2025-02-27 00:00:00,333.91,Transport,TechNow,Chicago,approved,February,2,0,Thursday,False
+230,2025-02-27 06:00:00,149.6,Retail,StayPremium,Miami,approved,February,2,6,Thursday,False
+231,2025-02-27 12:00:00,237.57,Healthcare,StyleVault,New York,declined,February,2,12,Thursday,False
+232,2025-02-27 18:00:00,104.77,Travel,GourmetHub,Miami,declined,February,2,18,Thursday,False
+233,2025-02-28 00:00:00,129.02,Travel,TechNow,New York,approved,February,2,0,Friday,False
+234,2025-02-28 06:00:00,101.74,Travel,MediPlus,Los Angeles,declined,February,2,6,Friday,False
+235,2025-02-28 12:00:00,32.58,Food,MediPlus,Los Angeles,approved,February,2,12,Friday,False
+236,2025-02-28 18:00:00,192.26,Retail,MediPlus,Houston,flagged,February,2,18,Friday,False
+237,2025-03-01 00:00:00,49.44,Healthcare,MediPlus,Miami,flagged,March,3,0,Saturday,False
+238,2025-03-01 06:00:00,3.69,Retail,StyleVault,New York,approved,March,3,6,Saturday,False
+239,2025-03-01 12:00:00,155.55,Transport,StayPremium,Los Angeles,flagged,March,3,12,Saturday,False
+240,2025-03-01 18:00:00,29.24,Travel,SkyBridge Travel,Chicago,approved,March,3,18,Saturday,False
+241,2025-03-02 00:00:00,423.16,Healthcare,TechNow,Los Angeles,approved,March,3,0,Sunday,False
+242,2025-03-02 06:00:00,461.63,Tech,StyleVault,Chicago,declined,March,3,6,Sunday,True
+243,2025-03-02 12:00:00,369.53,Tech,MediPlus,New York,approved,March,3,12,Sunday,False
+244,2025-03-02 18:00:00,69.34,Healthcare,RoadEasy,Los Angeles,approved,March,3,18,Sunday,False
+245,2025-03-03 00:00:00,2.34,Tech,StayPremium,Los Angeles,declined,March,3,0,Monday,False
+246,2025-03-03 06:00:00,395.33,Food,SkyBridge Travel,New York,approved,March,3,6,Monday,False
+247,2025-03-03 12:00:00,83.84,Travel,RoadEasy,Los Angeles,declined,March,3,12,Monday,False
+248,2025-03-03 18:00:00,510.13,Travel,GourmetHub,Chicago,flagged,March,3,18,Monday,True
+249,2025-03-04 00:00:00,497.06,Transport,RoadEasy,Los Angeles,approved,March,3,0,Tuesday,True
+250,2025-03-04 06:00:00,287.61,Food,GourmetHub,Miami,approved,March,3,6,Tuesday,False
+251,2025-03-04 12:00:00,52.32,Tech,GourmetHub,Houston,declined,March,3,12,Tuesday,False
+252,2025-03-04 18:00:00,72.94,Retail,MediPlus,Chicago,declined,March,3,18,Tuesday,False
+253,2025-03-05 00:00:00,285.71,Travel,GourmetHub,Miami,approved,March,3,0,Wednesday,False
+254,2025-03-05 06:00:00,57.17,Travel,AirElite,New York,flagged,March,3,6,Wednesday,False
+255,2025-03-05 12:00:00,27.86,Tech,TechNow,Chicago,approved,March,3,12,Wednesday,False
+256,2025-03-05 18:00:00,122.06,Retail,TechNow,Houston,approved,March,3,18,Wednesday,False
+257,2025-03-06 00:00:00,412.69,Travel,MediPlus,Houston,flagged,March,3,0,Thursday,False
+258,2025-03-06 06:00:00,178.62,Retail,AirElite,New York,approved,March,3,6,Thursday,False
+259,2025-03-06 12:00:00,126.62,Travel,RoadEasy,New York,approved,March,3,12,Thursday,False
+260,2025-03-06 18:00:00,15.33,Food,StyleVault,Chicago,approved,March,3,18,Thursday,False
+261,2025-03-07 00:00:00,143.18,Travel,RoadEasy,Los Angeles,declined,March,3,0,Friday,False
+262,2025-03-07 06:00:00,691.59,Tech,StayPremium,New York,flagged,March,3,6,Friday,True
+263,2025-03-07 12:00:00,22.64,Retail,StyleVault,Los Angeles,approved,March,3,12,Friday,False
+264,2025-03-07 18:00:00,109.57,Retail,GourmetHub,Miami,approved,March,3,18,Friday,False
+265,2025-03-08 00:00:00,314.79,Travel,SkyBridge Travel,Houston,approved,March,3,0,Saturday,False
+266,2025-03-08 06:00:00,202.51,Travel,StyleVault,Los Angeles,flagged,March,3,6,Saturday,False
+267,2025-03-08 12:00:00,179.11,Retail,SkyBridge Travel,Houston,declined,March,3,12,Saturday,False
+268,2025-03-08 18:00:00,181.84,Retail,TechNow,Los Angeles,declined,March,3,18,Saturday,False
+269,2025-03-09 00:00:00,66.82,Food,SkyBridge Travel,Miami,flagged,March,3,0,Sunday,False
+270,2025-03-09 06:00:00,52.13,Retail,TechNow,New York,declined,March,3,6,Sunday,False
+271,2025-03-09 12:00:00,248.61,Tech,AirElite,Miami,approved,March,3,12,Sunday,False
+272,2025-03-09 18:00:00,249.2,Healthcare,AirElite,New York,approved,March,3,18,Sunday,False
+273,2025-03-10 00:00:00,302.69,Tech,MediPlus,New York,approved,March,3,0,Monday,False
+274,2025-03-10 06:00:00,366.69,Travel,MediPlus,Houston,flagged,March,3,6,Monday,False
+275,2025-03-10 12:00:00,107.41,Retail,GourmetHub,Miami,approved,March,3,12,Monday,False
+276,2025-03-10 18:00:00,104.43,Travel,StyleVault,Los Angeles,approved,March,3,18,Monday,False
+277,2025-03-11 00:00:00,240.14,Travel,GourmetHub,Miami,approved,March,3,0,Tuesday,False
+278,2025-03-11 06:00:00,157.46,Transport,TechNow,Houston,approved,March,3,6,Tuesday,False
+279,2025-03-11 12:00:00,181.58,Travel,GourmetHub,New York,declined,March,3,12,Tuesday,False
+280,2025-03-11 18:00:00,238.29,Retail,SkyBridge Travel,Houston,approved,March,3,18,Tuesday,False
+281,2025-03-12 00:00:00,331.1,Food,TechNow,Chicago,approved,March,3,0,Wednesday,False
+282,2025-03-12 06:00:00,61.87,Tech,MediPlus,Chicago,approved,March,3,6,Wednesday,False
+283,2025-03-12 12:00:00,70.64,Food,AirElite,Los Angeles,declined,March,3,12,Wednesday,False
+284,2025-03-12 18:00:00,14.8,Travel,MediPlus,Houston,approved,March,3,18,Wednesday,False
+285,2025-03-13 00:00:00,129.51,Retail,StyleVault,Los Angeles,approved,March,3,0,Thursday,False
+286,2025-03-13 06:00:00,5.49,Food,TechNow,Los Angeles,declined,March,3,6,Thursday,False
+287,2025-03-13 12:00:00,93.99,Travel,TechNow,Chicago,flagged,March,3,12,Thursday,False
+288,2025-03-13 18:00:00,117.34,Retail,SkyBridge Travel,Los Angeles,declined,March,3,18,Thursday,False
+289,2025-03-14 00:00:00,50.64,Travel,StyleVault,Chicago,approved,March,3,0,Friday,False
+290,2025-03-14 06:00:00,134.04,Travel,AirElite,New York,flagged,March,3,6,Friday,False
+291,2025-03-14 12:00:00,4.65,Retail,RoadEasy,Houston,approved,March,3,12,Friday,False
+292,2025-03-14 18:00:00,5.71,Travel,TechNow,Los Angeles,declined,March,3,18,Friday,False
+293,2025-03-15 00:00:00,259.4,Food,TechNow,Chicago,approved,March,3,0,Saturday,False
+294,2025-03-15 06:00:00,66.99,Tech,SkyBridge Travel,Miami,flagged,March,3,6,Saturday,False
+295,2025-03-15 12:00:00,20.38,Tech,GourmetHub,Los Angeles,declined,March,3,12,Saturday,False
+296,2025-03-15 18:00:00,110.8,Travel,StayPremium,New York,approved,March,3,18,Saturday,False
+297,2025-03-16 00:00:00,220.45,Travel,AirElite,New York,declined,March,3,0,Sunday,False
+298,2025-03-16 06:00:00,36.47,Travel,MediPlus,Miami,approved,March,3,6,Sunday,False
+299,2025-03-16 12:00:00,146.28,Food,StyleVault,Chicago,declined,March,3,12,Sunday,False
+300,2025-03-16 18:00:00,13.38,Tech,TechNow,Los Angeles,flagged,March,3,18,Sunday,False
+301,2025-03-17 00:00:00,7.96,Travel,TechNow,Chicago,flagged,March,3,0,Monday,False
+302,2025-03-17 06:00:00,113.69,Transport,MediPlus,New York,declined,March,3,6,Monday,False
+303,2025-03-17 12:00:00,116.69,Travel,AirElite,Chicago,flagged,March,3,12,Monday,False
+304,2025-03-17 18:00:00,152.18,Food,StayPremium,New York,approved,March,3,18,Monday,False
+305,2025-03-18 00:00:00,194.24,Tech,GourmetHub,Chicago,declined,March,3,0,Tuesday,False
+306,2025-03-18 06:00:00,558.53,Healthcare,TechNow,Miami,approved,March,3,6,Tuesday,True
+307,2025-03-18 12:00:00,108.94,Tech,StayPremium,Houston,approved,March,3,12,Tuesday,False
+308,2025-03-18 18:00:00,58.5,Tech,AirElite,Miami,approved,March,3,18,Tuesday,False
+309,2025-03-19 00:00:00,237.85,Retail,MediPlus,Miami,declined,March,3,0,Wednesday,False
+310,2025-03-19 06:00:00,47.38,Tech,SkyBridge Travel,Houston,flagged,March,3,6,Wednesday,False
+311,2025-03-19 12:00:00,86.7,Travel,GourmetHub,Houston,approved,March,3,12,Wednesday,False
+312,2025-03-19 18:00:00,12.26,Healthcare,StyleVault,Los Angeles,approved,March,3,18,Wednesday,False
+313,2025-03-20 00:00:00,3.85,Food,TechNow,Los Angeles,declined,March,3,0,Thursday,False
+314,2025-03-20 06:00:00,493.11,Tech,AirElite,Miami,declined,March,3,6,Thursday,True
+315,2025-03-20 12:00:00,271.17,Retail,SkyBridge Travel,Miami,approved,March,3,12,Thursday,False
+316,2025-03-20 18:00:00,178.6,Food,StyleVault,New York,approved,March,3,18,Thursday,False
+317,2025-03-21 00:00:00,78.88,Food,RoadEasy,New York,approved,March,3,0,Friday,False
+318,2025-03-21 06:00:00,28.55,Tech,AirElite,Los Angeles,approved,March,3,6,Friday,False
+319,2025-03-21 12:00:00,25.52,Travel,AirElite,Los Angeles,approved,March,3,12,Friday,False
+320,2025-03-21 18:00:00,43.2,Travel,StyleVault,New York,flagged,March,3,18,Friday,False
+321,2025-03-22 00:00:00,119.52,Travel,SkyBridge Travel,New York,approved,March,3,0,Saturday,False
+322,2025-03-22 06:00:00,188.08,Travel,RoadEasy,Chicago,approved,March,3,6,Saturday,False
+323,2025-03-22 12:00:00,161.91,Healthcare,StayPremium,Chicago,flagged,March,3,12,Saturday,False
+324,2025-03-22 18:00:00,49.26,Travel,StayPremium,New York,approved,March,3,18,Saturday,False
+325,2025-03-23 00:00:00,464.72,Transport,MediPlus,Chicago,approved,March,3,0,Sunday,True
+326,2025-03-23 06:00:00,200.85,Retail,SkyBridge Travel,Houston,approved,March,3,6,Sunday,False
+327,2025-03-23 12:00:00,121.23,Travel,GourmetHub,Los Angeles,declined,March,3,12,Sunday,False
+328,2025-03-23 18:00:00,141.9,Tech,TechNow,Los Angeles,approved,March,3,18,Sunday,False
+329,2025-03-24 00:00:00,81.61,Food,StyleVault,New York,approved,March,3,0,Monday,False
+330,2025-03-24 06:00:00,42.7,Retail,MediPlus,Miami,flagged,March,3,6,Monday,False
+331,2025-03-24 12:00:00,66.0,Food,RoadEasy,New York,approved,March,3,12,Monday,False
+332,2025-03-24 18:00:00,212.73,Tech,StyleVault,Chicago,approved,March,3,18,Monday,False
+333,2025-03-25 00:00:00,2.17,Travel,StyleVault,Miami,declined,March,3,0,Tuesday,False
+334,2025-03-25 06:00:00,18.51,Transport,SkyBridge Travel,Chicago,approved,March,3,6,Tuesday,False
+335,2025-03-25 12:00:00,7.06,Transport,TechNow,Houston,approved,March,3,12,Tuesday,False
+336,2025-03-25 18:00:00,6.24,Food,GourmetHub,Chicago,flagged,March,3,18,Tuesday,False
+337,2025-03-26 00:00:00,290.13,Travel,StayPremium,Houston,approved,March,3,0,Wednesday,False
+338,2025-03-26 06:00:00,182.44,Tech,AirElite,Houston,flagged,March,3,6,Wednesday,False
+339,2025-03-26 12:00:00,96.42,Travel,AirElite,Chicago,approved,March,3,12,Wednesday,False
+340,2025-03-26 18:00:00,15.44,Travel,StyleVault,Chicago,declined,March,3,18,Wednesday,False
+341,2025-03-27 00:00:00,101.48,Travel,StayPremium,Houston,declined,March,3,0,Thursday,False
+342,2025-03-27 06:00:00,96.22,Retail,StayPremium,Miami,approved,March,3,6,Thursday,False
+343,2025-03-27 12:00:00,28.53,Healthcare,TechNow,Houston,declined,March,3,12,Thursday,False
+344,2025-03-27 18:00:00,85.33,Tech,RoadEasy,Los Angeles,approved,March,3,18,Thursday,False
+345,2025-03-28 00:00:00,76.25,Tech,RoadEasy,Houston,approved,March,3,0,Friday,False
+346,2025-03-28 06:00:00,143.51,Retail,MediPlus,Miami,approved,March,3,6,Friday,False
+347,2025-03-28 12:00:00,151.22,Retail,SkyBridge Travel,Los Angeles,declined,March,3,12,Friday,False
+348,2025-03-28 18:00:00,6.95,Retail,TechNow,New York,approved,March,3,18,Friday,False
+349,2025-03-29 00:00:00,70.41,Transport,TechNow,New York,approved,March,3,0,Saturday,False
+350,2025-03-29 06:00:00,147.47,Travel,SkyBridge Travel,Miami,flagged,March,3,6,Saturday,False
+351,2025-03-29 12:00:00,104.92,Healthcare,StayPremium,Houston,flagged,March,3,12,Saturday,False
+352,2025-03-29 18:00:00,291.2,Food,RoadEasy,Chicago,approved,March,3,18,Saturday,False
+353,2025-03-30 00:00:00,161.25,Retail,RoadEasy,Miami,approved,March,3,0,Sunday,False
+354,2025-03-30 06:00:00,26.68,Tech,StayPremium,Los Angeles,flagged,March,3,6,Sunday,False
+355,2025-03-30 12:00:00,10.98,Retail,RoadEasy,Los Angeles,approved,March,3,12,Sunday,False
+356,2025-03-30 18:00:00,154.26,Healthcare,StyleVault,New York,flagged,March,3,18,Sunday,False
+357,2025-03-31 00:00:00,4.03,Healthcare,TechNow,Los Angeles,approved,March,3,0,Monday,False
+358,2025-03-31 06:00:00,132.2,Retail,AirElite,Miami,declined,March,3,6,Monday,False
+359,2025-03-31 12:00:00,422.59,Travel,SkyBridge Travel,Los Angeles,approved,March,3,12,Monday,False
+360,2025-03-31 18:00:00,128.52,Food,RoadEasy,Miami,declined,March,3,18,Monday,False
+361,2025-04-01 00:00:00,73.7,Healthcare,MediPlus,Chicago,declined,April,4,0,Tuesday,False
+362,2025-04-01 06:00:00,154.62,Travel,RoadEasy,New York,approved,April,4,6,Tuesday,False
+363,2025-04-01 12:00:00,91.94,Food,RoadEasy,Los Angeles,flagged,April,4,12,Tuesday,False
+364,2025-04-01 18:00:00,118.32,Food,GourmetHub,Miami,approved,April,4,18,Tuesday,False
+365,2025-04-02 00:00:00,425.72,Tech,StyleVault,Houston,declined,April,4,0,Wednesday,False
+366,2025-04-02 06:00:00,73.19,Travel,SkyBridge Travel,New York,flagged,April,4,6,Wednesday,False
+367,2025-04-02 12:00:00,487.36,Tech,GourmetHub,Chicago,approved,April,4,12,Wednesday,True
+368,2025-04-02 18:00:00,353.64,Healthcare,GourmetHub,Miami,declined,April,4,18,Wednesday,False
+369,2025-04-03 00:00:00,32.68,Travel,MediPlus,Chicago,approved,April,4,0,Thursday,False
+370,2025-04-03 06:00:00,10.78,Travel,TechNow,Chicago,flagged,April,4,6,Thursday,False
+371,2025-04-03 12:00:00,15.93,Transport,MediPlus,Los Angeles,approved,April,4,12,Thursday,False
+372,2025-04-03 18:00:00,2.76,Travel,TechNow,Los Angeles,flagged,April,4,18,Thursday,False
+373,2025-04-04 00:00:00,14.88,Healthcare,TechNow,Miami,approved,April,4,0,Friday,False
+374,2025-04-04 06:00:00,172.33,Retail,SkyBridge Travel,Houston,approved,April,4,6,Friday,False
+375,2025-04-04 12:00:00,11.08,Travel,RoadEasy,Miami,approved,April,4,12,Friday,False
+376,2025-04-04 18:00:00,57.62,Healthcare,SkyBridge Travel,Houston,approved,April,4,18,Friday,False
+377,2025-04-05 00:00:00,279.53,Retail,StyleVault,Chicago,approved,April,4,0,Saturday,False
+378,2025-04-05 06:00:00,3.53,Food,TechNow,New York,declined,April,4,6,Saturday,False
+379,2025-04-05 12:00:00,252.68,Retail,GourmetHub,Miami,approved,April,4,12,Saturday,False
+380,2025-04-05 18:00:00,49.66,Food,RoadEasy,Miami,approved,April,4,18,Saturday,False
+381,2025-04-06 00:00:00,18.86,Travel,AirElite,Houston,flagged,April,4,0,Sunday,False
+382,2025-04-06 06:00:00,178.97,Retail,StyleVault,Chicago,flagged,April,4,6,Sunday,False
+383,2025-04-06 12:00:00,148.71,Transport,SkyBridge Travel,Chicago,declined,April,4,12,Sunday,False
+384,2025-04-06 18:00:00,314.91,Travel,MediPlus,Houston,approved,April,4,18,Sunday,False
+385,2025-04-07 00:00:00,199.24,Food,StyleVault,Chicago,approved,April,4,0,Monday,False
+386,2025-04-07 06:00:00,244.05,Retail,StyleVault,Los Angeles,flagged,April,4,6,Monday,False
+387,2025-04-07 12:00:00,49.7,Tech,RoadEasy,New York,approved,April,4,12,Monday,False
+388,2025-04-07 18:00:00,29.3,Travel,StyleVault,Miami,declined,April,4,18,Monday,False
+389,2025-04-08 00:00:00,208.31,Transport,StyleVault,New York,declined,April,4,0,Tuesday,False
+390,2025-04-08 06:00:00,246.63,Retail,AirElite,Miami,flagged,April,4,6,Tuesday,False
+391,2025-04-08 12:00:00,698.55,Travel,StayPremium,Los Angeles,flagged,April,4,12,Tuesday,True
+392,2025-04-08 18:00:00,79.81,Travel,MediPlus,Chicago,approved,April,4,18,Tuesday,False
+393,2025-04-09 00:00:00,69.79,Travel,MediPlus,Houston,approved,April,4,0,Wednesday,False
+394,2025-04-09 06:00:00,224.69,Food,MediPlus,Los Angeles,approved,April,4,6,Wednesday,False
+395,2025-04-09 12:00:00,62.51,Retail,TechNow,New York,declined,April,4,12,Wednesday,False
+396,2025-04-09 18:00:00,400.52,Healthcare,GourmetHub,Houston,declined,April,4,18,Wednesday,False
+397,2025-04-10 00:00:00,293.23,Retail,StayPremium,Chicago,flagged,April,4,0,Thursday,False
+398,2025-04-10 06:00:00,84.05,Travel,MediPlus,Los Angeles,approved,April,4,6,Thursday,False
+399,2025-04-10 12:00:00,208.47,Food,StyleVault,Houston,declined,April,4,12,Thursday,False
+400,2025-04-10 18:00:00,210.69,Tech,StyleVault,Los Angeles,approved,April,4,18,Thursday,False
+401,2025-04-11 00:00:00,16.33,Travel,MediPlus,Los Angeles,approved,April,4,0,Friday,False
+402,2025-04-11 06:00:00,349.27,Travel,RoadEasy,Chicago,flagged,April,4,6,Friday,False
+403,2025-04-11 12:00:00,105.56,Travel,MediPlus,Miami,approved,April,4,12,Friday,False
+404,2025-04-11 18:00:00,262.7,Tech,StyleVault,Houston,approved,April,4,18,Friday,False
+405,2025-04-12 00:00:00,57.86,Food,TechNow,Chicago,approved,April,4,0,Saturday,False
+406,2025-04-12 06:00:00,338.82,Retail,SkyBridge Travel,Los Angeles,approved,April,4,6,Saturday,False
+407,2025-04-12 12:00:00,73.95,Healthcare,SkyBridge Travel,Chicago,flagged,April,4,12,Saturday,False
+408,2025-04-12 18:00:00,1.63,Tech,StayPremium,Miami,approved,April,4,18,Saturday,False
+409,2025-04-13 00:00:00,353.69,Food,StayPremium,Houston,approved,April,4,0,Sunday,False
+410,2025-04-13 06:00:00,14.36,Healthcare,MediPlus,Miami,approved,April,4,6,Sunday,False
+411,2025-04-13 12:00:00,57.7,Travel,AirElite,New York,flagged,April,4,12,Sunday,False
+412,2025-04-13 18:00:00,449.55,Travel,MediPlus,Houston,flagged,April,4,18,Sunday,True
+413,2025-04-14 00:00:00,451.19,Travel,RoadEasy,Miami,approved,April,4,0,Monday,True
+414,2025-04-14 06:00:00,127.8,Travel,MediPlus,Los Angeles,declined,April,4,6,Monday,False
+415,2025-04-14 12:00:00,149.88,Food,StayPremium,Houston,approved,April,4,12,Monday,False
+416,2025-04-14 18:00:00,89.25,Transport,SkyBridge Travel,Houston,flagged,April,4,18,Monday,False
+417,2025-04-15 00:00:00,52.05,Travel,StyleVault,Chicago,approved,April,4,0,Tuesday,False
+418,2025-04-15 06:00:00,59.77,Travel,MediPlus,Los Angeles,approved,April,4,6,Tuesday,False
+419,2025-04-15 12:00:00,167.45,Retail,StyleVault,New York,approved,April,4,12,Tuesday,False
+420,2025-04-15 18:00:00,209.38,Transport,StyleVault,Miami,flagged,April,4,18,Tuesday,False
+421,2025-04-16 00:00:00,235.23,Retail,AirElite,Chicago,approved,April,4,0,Wednesday,False
+422,2025-04-16 06:00:00,233.82,Food,StyleVault,Miami,flagged,April,4,6,Wednesday,False
+423,2025-04-16 12:00:00,14.35,Travel,SkyBridge Travel,New York,approved,April,4,12,Wednesday,False
+424,2025-04-16 18:00:00,102.31,Travel,TechNow,New York,flagged,April,4,18,Wednesday,False
+425,2025-04-17 00:00:00,8.89,Transport,TechNow,Houston,approved,April,4,0,Thursday,False
+426,2025-04-17 06:00:00,119.62,Transport,GourmetHub,New York,flagged,April,4,6,Thursday,False
+427,2025-04-17 12:00:00,87.38,Travel,RoadEasy,Miami,flagged,April,4,12,Thursday,False
+428,2025-04-17 18:00:00,327.99,Transport,MediPlus,Los Angeles,approved,April,4,18,Thursday,False
+429,2025-04-18 00:00:00,64.83,Food,RoadEasy,Los Angeles,approved,April,4,0,Friday,False
+430,2025-04-18 06:00:00,18.68,Healthcare,SkyBridge Travel,Houston,declined,April,4,6,Friday,False
+431,2025-04-18 12:00:00,23.15,Retail,StyleVault,Miami,approved,April,4,12,Friday,False
+432,2025-04-18 18:00:00,215.01,Food,TechNow,Miami,declined,April,4,18,Friday,False
+433,2025-04-19 00:00:00,144.44,Retail,RoadEasy,New York,approved,April,4,0,Saturday,False
+434,2025-04-19 06:00:00,15.99,Food,SkyBridge Travel,Miami,declined,April,4,6,Saturday,False
+435,2025-04-19 12:00:00,13.18,Travel,TechNow,Chicago,flagged,April,4,12,Saturday,False
+436,2025-04-19 18:00:00,181.08,Travel,StyleVault,New York,declined,April,4,18,Saturday,False
+437,2025-04-20 00:00:00,11.33,Retail,RoadEasy,Chicago,approved,April,4,0,Sunday,False
+438,2025-04-20 06:00:00,258.78,Tech,TechNow,Houston,approved,April,4,6,Sunday,False
+439,2025-04-20 12:00:00,183.75,Travel,MediPlus,Los Angeles,declined,April,4,12,Sunday,False
+440,2025-04-20 18:00:00,12.73,Food,StayPremium,Houston,approved,April,4,18,Sunday,False
+441,2025-04-21 00:00:00,13.3,Transport,MediPlus,Los Angeles,approved,April,4,0,Monday,False
+442,2025-04-21 06:00:00,647.32,Travel,GourmetHub,Houston,declined,April,4,6,Monday,True
+443,2025-04-21 12:00:00,70.33,Food,GourmetHub,Miami,approved,April,4,12,Monday,False
+444,2025-04-21 18:00:00,69.46,Retail,TechNow,Chicago,approved,April,4,18,Monday,False
+445,2025-04-22 00:00:00,251.34,Healthcare,StayPremium,Los Angeles,approved,April,4,0,Tuesday,False
+446,2025-04-22 06:00:00,441.32,Travel,SkyBridge Travel,New York,approved,April,4,6,Tuesday,True
+447,2025-04-22 12:00:00,640.32,Tech,MediPlus,Chicago,declined,April,4,12,Tuesday,True
+448,2025-04-22 18:00:00,209.98,Healthcare,SkyBridge Travel,New York,approved,April,4,18,Tuesday,False
+449,2025-04-23 00:00:00,70.8,Transport,StayPremium,Chicago,flagged,April,4,0,Wednesday,False
+450,2025-04-23 06:00:00,13.08,Tech,SkyBridge Travel,Chicago,approved,April,4,6,Wednesday,False
+451,2025-04-23 12:00:00,225.19,Retail,StayPremium,Houston,approved,April,4,12,Wednesday,False
+452,2025-04-23 18:00:00,122.6,Food,TechNow,Los Angeles,approved,April,4,18,Wednesday,False
+453,2025-04-24 00:00:00,82.8,Healthcare,SkyBridge Travel,Los Angeles,declined,April,4,0,Thursday,False
+454,2025-04-24 06:00:00,355.24,Food,MediPlus,Chicago,approved,April,4,6,Thursday,False
+455,2025-04-24 12:00:00,17.68,Travel,StyleVault,Miami,approved,April,4,12,Thursday,False
+456,2025-04-24 18:00:00,101.78,Transport,GourmetHub,Miami,approved,April,4,18,Thursday,False
+457,2025-04-25 00:00:00,1.71,Tech,StyleVault,New York,approved,April,4,0,Friday,False
+458,2025-04-25 06:00:00,94.85,Food,SkyBridge Travel,New York,approved,April,4,6,Friday,False
+459,2025-04-25 12:00:00,8.69,Travel,StyleVault,Houston,approved,April,4,12,Friday,False
+460,2025-04-25 18:00:00,18.97,Food,MediPlus,Chicago,approved,April,4,18,Friday,False
+461,2025-04-26 00:00:00,18.75,Retail,MediPlus,New York,approved,April,4,0,Saturday,False
+462,2025-04-26 06:00:00,157.14,Food,SkyBridge Travel,New York,approved,April,4,6,Saturday,False
+463,2025-04-26 12:00:00,205.59,Travel,TechNow,Chicago,flagged,April,4,12,Saturday,False
+464,2025-04-26 18:00:00,131.33,Food,StyleVault,Houston,flagged,April,4,18,Saturday,False
+465,2025-04-27 00:00:00,491.21,Transport,TechNow,New York,flagged,April,4,0,Sunday,True
+466,2025-04-27 06:00:00,70.47,Travel,TechNow,Houston,approved,April,4,6,Sunday,False
+467,2025-04-27 12:00:00,50.47,Transport,StayPremium,Los Angeles,flagged,April,4,12,Sunday,False
+468,2025-04-27 18:00:00,304.43,Retail,AirElite,Houston,flagged,April,4,18,Sunday,False
+469,2025-04-28 00:00:00,37.96,Healthcare,SkyBridge Travel,Miami,approved,April,4,0,Monday,False
+470,2025-04-28 06:00:00,495.43,Tech,GourmetHub,Miami,approved,April,4,6,Monday,True
+471,2025-04-28 12:00:00,1.83,Food,MediPlus,Houston,approved,April,4,12,Monday,False
+472,2025-04-28 18:00:00,525.38,Tech,MediPlus,Miami,approved,April,4,18,Monday,True
+473,2025-04-29 00:00:00,6.62,Healthcare,SkyBridge Travel,Los Angeles,approved,April,4,0,Tuesday,False
+474,2025-04-29 06:00:00,332.66,Retail,StayPremium,Chicago,approved,April,4,6,Tuesday,False
+475,2025-04-29 12:00:00,112.52,Retail,RoadEasy,Miami,approved,April,4,12,Tuesday,False
+476,2025-04-29 18:00:00,743.52,Food,RoadEasy,Miami,flagged,April,4,18,Tuesday,True
+477,2025-04-30 00:00:00,11.5,Tech,RoadEasy,Houston,approved,April,4,0,Wednesday,False
+478,2025-04-30 06:00:00,121.07,Tech,StayPremium,Los Angeles,approved,April,4,6,Wednesday,False
+479,2025-04-30 12:00:00,522.54,Tech,GourmetHub,Chicago,approved,April,4,12,Wednesday,True
+480,2025-04-30 18:00:00,111.07,Retail,MediPlus,Houston,declined,April,4,18,Wednesday,False
+481,2025-05-01 00:00:00,148.89,Tech,SkyBridge Travel,Houston,approved,May,5,0,Thursday,False
+482,2025-05-01 06:00:00,178.49,Travel,StayPremium,Los Angeles,approved,May,5,6,Thursday,False
+483,2025-05-01 12:00:00,90.92,Food,MediPlus,Chicago,approved,May,5,12,Thursday,False
+484,2025-05-01 18:00:00,148.15,Travel,TechNow,Los Angeles,declined,May,5,18,Thursday,False
+485,2025-05-02 00:00:00,131.67,Retail,StyleVault,Chicago,approved,May,5,0,Friday,False
+486,2025-05-02 06:00:00,347.13,Retail,StyleVault,Los Angeles,flagged,May,5,6,Friday,False
+487,2025-05-02 12:00:00,6.98,Retail,StayPremium,Houston,approved,May,5,12,Friday,False
+488,2025-05-02 18:00:00,49.48,Tech,MediPlus,Houston,declined,May,5,18,Friday,False
+489,2025-05-03 00:00:00,450.6,Retail,AirElite,New York,declined,May,5,0,Saturday,True
+490,2025-05-03 06:00:00,331.45,Retail,GourmetHub,Miami,approved,May,5,6,Saturday,False
+491,2025-05-03 12:00:00,91.23,Travel,RoadEasy,Los Angeles,approved,May,5,12,Saturday,False
+492,2025-05-03 18:00:00,145.19,Retail,GourmetHub,New York,approved,May,5,18,Saturday,False
+493,2025-05-04 00:00:00,48.73,Travel,GourmetHub,Miami,declined,May,5,0,Sunday,False
+494,2025-05-04 06:00:00,31.26,Travel,StayPremium,Los Angeles,approved,May,5,6,Sunday,False
+495,2025-05-04 12:00:00,93.46,Food,TechNow,Chicago,flagged,May,5,12,Sunday,False
+496,2025-05-04 18:00:00,65.39,Food,GourmetHub,Miami,declined,May,5,18,Sunday,False
+497,2025-05-05 00:00:00,131.44,Food,StyleVault,Houston,approved,May,5,0,Monday,False
+498,2025-05-05 06:00:00,12.14,Retail,TechNow,New York,approved,May,5,6,Monday,False
+499,2025-05-05 12:00:00,549.74,Retail,SkyBridge Travel,Miami,approved,May,5,12,Monday,True
+500,2025-05-05 18:00:00,642.58,Healthcare,GourmetHub,Miami,declined,May,5,18,Monday,True
+501,2025-05-06 00:00:00,179.68,Food,GourmetHub,Houston,declined,May,5,0,Tuesday,False
+502,2025-05-06 06:00:00,115.21,Retail,SkyBridge Travel,Los Angeles,approved,May,5,6,Tuesday,False
+503,2025-05-06 12:00:00,55.56,Travel,GourmetHub,Chicago,approved,May,5,12,Tuesday,False
+504,2025-05-06 18:00:00,252.14,Retail,SkyBridge Travel,Houston,declined,May,5,18,Tuesday,False
+505,2025-05-07 00:00:00,173.15,Retail,TechNow,Chicago,approved,May,5,0,Wednesday,False
+506,2025-05-07 06:00:00,26.62,Retail,StyleVault,Los Angeles,approved,May,5,6,Wednesday,False
+507,2025-05-07 12:00:00,362.75,Food,SkyBridge Travel,Miami,declined,May,5,12,Wednesday,False
+508,2025-05-07 18:00:00,259.35,Food,AirElite,Chicago,approved,May,5,18,Wednesday,False
+509,2025-05-08 00:00:00,448.76,Food,StayPremium,New York,approved,May,5,0,Thursday,True
+510,2025-05-08 06:00:00,194.04,Tech,StayPremium,New York,approved,May,5,6,Thursday,False
+511,2025-05-08 12:00:00,142.56,Tech,SkyBridge Travel,Houston,approved,May,5,12,Thursday,False
+512,2025-05-08 18:00:00,81.26,Tech,StayPremium,Los Angeles,declined,May,5,18,Thursday,False
+513,2025-05-09 00:00:00,404.85,Transport,GourmetHub,Houston,approved,May,5,0,Friday,False
+514,2025-05-09 06:00:00,301.56,Travel,RoadEasy,Houston,declined,May,5,6,Friday,False
+515,2025-05-09 12:00:00,6.94,Travel,RoadEasy,Houston,declined,May,5,12,Friday,False
+516,2025-05-09 18:00:00,4.01,Travel,StayPremium,New York,approved,May,5,18,Friday,False
+517,2025-05-10 00:00:00,70.85,Food,TechNow,New York,approved,May,5,0,Saturday,False
+518,2025-05-10 06:00:00,249.55,Healthcare,MediPlus,Houston,declined,May,5,6,Saturday,False
+519,2025-05-10 12:00:00,654.64,Travel,TechNow,New York,flagged,May,5,12,Saturday,True
+520,2025-05-10 18:00:00,24.45,Transport,MediPlus,Los Angeles,approved,May,5,18,Saturday,False
+521,2025-05-11 00:00:00,135.26,Travel,RoadEasy,Houston,approved,May,5,0,Sunday,False
+522,2025-05-11 06:00:00,71.92,Transport,RoadEasy,New York,approved,May,5,6,Sunday,False
+523,2025-05-11 12:00:00,525.56,Retail,SkyBridge Travel,Chicago,approved,May,5,12,Sunday,True
+524,2025-05-11 18:00:00,276.89,Travel,StyleVault,Houston,approved,May,5,18,Sunday,False
+525,2025-05-12 00:00:00,273.33,Retail,AirElite,Houston,approved,May,5,0,Monday,False
+526,2025-05-12 06:00:00,94.86,Travel,TechNow,Los Angeles,approved,May,5,6,Monday,False
+527,2025-05-12 12:00:00,80.38,Retail,GourmetHub,Miami,declined,May,5,12,Monday,False
+528,2025-05-12 18:00:00,47.91,Retail,MediPlus,Miami,approved,May,5,18,Monday,False
+529,2025-05-13 00:00:00,8.7,Tech,StayPremium,Los Angeles,approved,May,5,0,Tuesday,False
+530,2025-05-13 06:00:00,300.06,Food,GourmetHub,Los Angeles,approved,May,5,6,Tuesday,False
+531,2025-05-13 12:00:00,251.42,Retail,StyleVault,Los Angeles,flagged,May,5,12,Tuesday,False
+532,2025-05-13 18:00:00,1225.87,Food,MediPlus,Miami,approved,May,5,18,Tuesday,True
+533,2025-05-14 00:00:00,854.23,Tech,TechNow,Los Angeles,approved,May,5,0,Wednesday,True
+534,2025-05-14 06:00:00,121.6,Travel,SkyBridge Travel,New York,approved,May,5,6,Wednesday,False
+535,2025-05-14 12:00:00,219.79,Retail,GourmetHub,Houston,approved,May,5,12,Wednesday,False
+536,2025-05-14 18:00:00,434.43,Travel,StyleVault,Houston,approved,May,5,18,Wednesday,False
+537,2025-05-15 00:00:00,284.22,Travel,TechNow,Chicago,declined,May,5,0,Thursday,False
+538,2025-05-15 06:00:00,42.62,Tech,RoadEasy,Chicago,approved,May,5,6,Thursday,False
+539,2025-05-15 12:00:00,89.82,Travel,RoadEasy,Houston,flagged,May,5,12,Thursday,False
+540,2025-05-15 18:00:00,20.74,Food,TechNow,New York,declined,May,5,18,Thursday,False
+541,2025-05-16 00:00:00,462.03,Tech,TechNow,Miami,approved,May,5,0,Friday,True
+542,2025-05-16 06:00:00,139.78,Travel,TechNow,Miami,approved,May,5,6,Friday,False
+543,2025-05-16 12:00:00,38.94,Food,MediPlus,New York,approved,May,5,12,Friday,False
+544,2025-05-16 18:00:00,167.07,Travel,TechNow,Miami,declined,May,5,18,Friday,False
+545,2025-05-17 00:00:00,144.4,Transport,GourmetHub,Los Angeles,declined,May,5,0,Saturday,False
+546,2025-05-17 06:00:00,66.51,Retail,StyleVault,Houston,declined,May,5,6,Saturday,False
+547,2025-05-17 12:00:00,18.08,Tech,MediPlus,Houston,approved,May,5,12,Saturday,False
+548,2025-05-17 18:00:00,167.02,Food,TechNow,New York,approved,May,5,18,Saturday,False
+549,2025-05-18 00:00:00,110.19,Travel,AirElite,Miami,approved,May,5,0,Sunday,False
+550,2025-05-18 06:00:00,221.97,Food,StayPremium,Chicago,approved,May,5,6,Sunday,False
+551,2025-05-18 12:00:00,110.15,Transport,AirElite,Chicago,approved,May,5,12,Sunday,False
+552,2025-05-18 18:00:00,286.77,Food,StyleVault,Miami,flagged,May,5,18,Sunday,False
+553,2025-05-19 00:00:00,120.41,Tech,RoadEasy,Chicago,approved,May,5,0,Monday,False
+554,2025-05-19 06:00:00,123.47,Healthcare,SkyBridge Travel,New York,declined,May,5,6,Monday,False
+555,2025-05-19 12:00:00,313.91,Travel,SkyBridge Travel,New York,approved,May,5,12,Monday,False
+556,2025-05-19 18:00:00,77.5,Travel,StayPremium,Miami,declined,May,5,18,Monday,False
+557,2025-05-20 00:00:00,21.58,Food,RoadEasy,Chicago,flagged,May,5,0,Tuesday,False
+558,2025-05-20 06:00:00,4.38,Retail,MediPlus,New York,flagged,May,5,6,Tuesday,False
+559,2025-05-20 12:00:00,211.06,Healthcare,MediPlus,New York,approved,May,5,12,Tuesday,False
+560,2025-05-20 18:00:00,145.26,Healthcare,MediPlus,Los Angeles,declined,May,5,18,Tuesday,False
+561,2025-05-21 00:00:00,182.65,Retail,SkyBridge Travel,Los Angeles,flagged,May,5,0,Wednesday,False
+562,2025-05-21 06:00:00,35.92,Travel,AirElite,New York,approved,May,5,6,Wednesday,False
+563,2025-05-21 12:00:00,21.99,Tech,SkyBridge Travel,Miami,approved,May,5,12,Wednesday,False
+564,2025-05-21 18:00:00,2.2,Travel,GourmetHub,Houston,declined,May,5,18,Wednesday,False
+565,2025-05-22 00:00:00,64.75,Healthcare,TechNow,Houston,approved,May,5,0,Thursday,False
+566,2025-05-22 06:00:00,133.71,Retail,MediPlus,New York,flagged,May,5,6,Thursday,False
+567,2025-05-22 12:00:00,74.7,Food,AirElite,New York,approved,May,5,12,Thursday,False
+568,2025-05-22 18:00:00,86.3,Travel,StyleVault,New York,approved,May,5,18,Thursday,False
+569,2025-05-23 00:00:00,351.76,Food,StayPremium,Miami,flagged,May,5,0,Friday,False
+570,2025-05-23 06:00:00,64.22,Retail,StyleVault,Los Angeles,approved,May,5,6,Friday,False
+571,2025-05-23 12:00:00,108.23,Food,TechNow,New York,approved,May,5,12,Friday,False
+572,2025-05-23 18:00:00,229.63,Travel,AirElite,New York,declined,May,5,18,Friday,False
+573,2025-05-24 00:00:00,75.76,Tech,SkyBridge Travel,Chicago,declined,May,5,0,Saturday,False
+574,2025-05-24 06:00:00,145.96,Healthcare,SkyBridge Travel,Miami,approved,May,5,6,Saturday,False
+575,2025-05-24 12:00:00,297.47,Travel,GourmetHub,New York,approved,May,5,12,Saturday,False
+576,2025-05-24 18:00:00,447.93,Travel,GourmetHub,Chicago,flagged,May,5,18,Saturday,True
+577,2025-05-25 00:00:00,23.86,Travel,SkyBridge Travel,Houston,declined,May,5,0,Sunday,False
+578,2025-05-25 06:00:00,391.75,Food,StyleVault,New York,approved,May,5,6,Sunday,False
+579,2025-05-25 12:00:00,101.63,Food,StayPremium,New York,approved,May,5,12,Sunday,False
+580,2025-05-25 18:00:00,44.81,Food,MediPlus,Chicago,approved,May,5,18,Sunday,False
+581,2025-05-26 00:00:00,92.19,Travel,StyleVault,Miami,approved,May,5,0,Monday,False
+582,2025-05-26 06:00:00,587.05,Retail,StayPremium,New York,approved,May,5,6,Monday,True
+583,2025-05-26 12:00:00,101.77,Food,GourmetHub,Houston,declined,May,5,12,Monday,False
+584,2025-05-26 18:00:00,59.79,Retail,TechNow,New York,approved,May,5,18,Monday,False
+585,2025-05-27 00:00:00,150.52,Transport,StayPremium,Houston,approved,May,5,0,Tuesday,False
+586,2025-05-27 06:00:00,41.19,Travel,SkyBridge Travel,Los Angeles,flagged,May,5,6,Tuesday,False
+587,2025-05-27 12:00:00,11.83,Tech,GourmetHub,Los Angeles,flagged,May,5,12,Tuesday,False
+588,2025-05-27 18:00:00,20.7,Retail,GourmetHub,Houston,approved,May,5,18,Tuesday,False
+589,2025-05-28 00:00:00,20.55,Retail,MediPlus,Miami,flagged,May,5,0,Wednesday,False
+590,2025-05-28 06:00:00,24.71,Tech,SkyBridge Travel,New York,flagged,May,5,6,Wednesday,False
+591,2025-05-28 12:00:00,22.42,Tech,MediPlus,New York,flagged,May,5,12,Wednesday,False
+592,2025-05-28 18:00:00,153.61,Transport,SkyBridge Travel,Los Angeles,approved,May,5,18,Wednesday,False
+593,2025-05-29 00:00:00,30.11,Travel,MediPlus,Houston,flagged,May,5,0,Thursday,False
+594,2025-05-29 06:00:00,63.62,Travel,StayPremium,New York,flagged,May,5,6,Thursday,False
+595,2025-05-29 12:00:00,340.65,Tech,StyleVault,New York,flagged,May,5,12,Thursday,False
+596,2025-05-29 18:00:00,96.36,Food,TechNow,Miami,approved,May,5,18,Thursday,False
+597,2025-05-30 00:00:00,165.19,Travel,TechNow,Chicago,approved,May,5,0,Friday,False
+598,2025-05-30 06:00:00,28.37,Travel,SkyBridge Travel,Los Angeles,approved,May,5,6,Friday,False
+599,2025-05-30 12:00:00,32.03,Travel,AirElite,Los Angeles,approved,May,5,12,Friday,False
+600,2025-05-30 18:00:00,6.26,Healthcare,RoadEasy,Chicago,declined,May,5,18,Friday,False
+601,2025-05-31 00:00:00,27.76,Travel,GourmetHub,New York,approved,May,5,0,Saturday,False
+602,2025-05-31 06:00:00,48.98,Retail,GourmetHub,Miami,approved,May,5,6,Saturday,False
+603,2025-05-31 12:00:00,29.22,Travel,SkyBridge Travel,Miami,declined,May,5,12,Saturday,False
+604,2025-05-31 18:00:00,13.93,Retail,StayPremium,Los Angeles,declined,May,5,18,Saturday,False
+605,2025-06-01 00:00:00,19.28,Travel,MediPlus,Miami,declined,June,6,0,Sunday,False
+606,2025-06-01 06:00:00,92.64,Food,AirElite,Chicago,approved,June,6,6,Sunday,False
+607,2025-06-01 12:00:00,34.66,Travel,StyleVault,New York,flagged,June,6,12,Sunday,False
+608,2025-06-01 18:00:00,67.95,Tech,MediPlus,Chicago,approved,June,6,18,Sunday,False
+609,2025-06-02 00:00:00,105.0,Travel,MediPlus,Houston,flagged,June,6,0,Monday,False
+610,2025-06-02 06:00:00,175.87,Food,SkyBridge Travel,Los Angeles,flagged,June,6,6,Monday,False
+611,2025-06-02 12:00:00,6.02,Healthcare,SkyBridge Travel,Miami,declined,June,6,12,Monday,False
+612,2025-06-02 18:00:00,240.97,Food,StayPremium,Houston,approved,June,6,18,Monday,False
+613,2025-06-03 00:00:00,148.29,Food,GourmetHub,Miami,approved,June,6,0,Tuesday,False
+614,2025-06-03 06:00:00,12.79,Retail,SkyBridge Travel,New York,approved,June,6,6,Tuesday,False
+615,2025-06-03 12:00:00,310.22,Retail,SkyBridge Travel,New York,flagged,June,6,12,Tuesday,False
+616,2025-06-03 18:00:00,380.5,Food,SkyBridge Travel,New York,approved,June,6,18,Tuesday,False
+617,2025-06-04 00:00:00,9.45,Transport,StayPremium,Miami,declined,June,6,0,Wednesday,False
+618,2025-06-04 06:00:00,48.63,Food,GourmetHub,Houston,approved,June,6,6,Wednesday,False
+619,2025-06-04 12:00:00,246.14,Food,StyleVault,New York,declined,June,6,12,Wednesday,False
+620,2025-06-04 18:00:00,206.9,Tech,StyleVault,Houston,approved,June,6,18,Wednesday,False
+621,2025-06-05 00:00:00,30.6,Retail,RoadEasy,Miami,flagged,June,6,0,Thursday,False
+622,2025-06-05 06:00:00,35.23,Travel,RoadEasy,Houston,approved,June,6,6,Thursday,False
+623,2025-06-05 12:00:00,69.42,Food,SkyBridge Travel,Miami,approved,June,6,12,Thursday,False
+624,2025-06-05 18:00:00,99.4,Transport,RoadEasy,Miami,approved,June,6,18,Thursday,False
+625,2025-06-06 00:00:00,144.45,Travel,GourmetHub,Los Angeles,approved,June,6,0,Friday,False
+626,2025-06-06 06:00:00,69.05,Tech,StayPremium,Miami,approved,June,6,6,Friday,False
+627,2025-06-06 12:00:00,93.13,Travel,StyleVault,Miami,flagged,June,6,12,Friday,False
+628,2025-06-06 18:00:00,206.43,Food,MediPlus,Chicago,approved,June,6,18,Friday,False
+629,2025-06-07 00:00:00,5.61,Travel,StyleVault,New York,approved,June,6,0,Saturday,False
+630,2025-06-07 06:00:00,43.64,Retail,StyleVault,Los Angeles,flagged,June,6,6,Saturday,False
+631,2025-06-07 12:00:00,187.42,Tech,GourmetHub,Los Angeles,approved,June,6,12,Saturday,False
+632,2025-06-07 18:00:00,338.37,Retail,RoadEasy,Los Angeles,approved,June,6,18,Saturday,False
+633,2025-06-08 00:00:00,107.52,Food,MediPlus,Chicago,approved,June,6,0,Sunday,False
+634,2025-06-08 06:00:00,113.93,Tech,GourmetHub,Miami,flagged,June,6,6,Sunday,False
+635,2025-06-08 12:00:00,17.0,Transport,SkyBridge Travel,New York,approved,June,6,12,Sunday,False
+636,2025-06-08 18:00:00,88.97,Travel,StayPremium,Houston,approved,June,6,18,Sunday,False
+637,2025-06-09 00:00:00,114.09,Retail,TechNow,Miami,flagged,June,6,0,Monday,False
+638,2025-06-09 06:00:00,41.65,Travel,StyleVault,Chicago,approved,June,6,6,Monday,False
+639,2025-06-09 12:00:00,47.05,Transport,TechNow,Miami,flagged,June,6,12,Monday,False
+640,2025-06-09 18:00:00,71.05,Transport,StayPremium,Miami,flagged,June,6,18,Monday,False
+641,2025-06-10 00:00:00,3.04,Food,StayPremium,Chicago,approved,June,6,0,Tuesday,False
+642,2025-06-10 06:00:00,58.31,Healthcare,GourmetHub,Los Angeles,flagged,June,6,6,Tuesday,False
+643,2025-06-10 12:00:00,35.63,Food,GourmetHub,Los Angeles,approved,June,6,12,Tuesday,False
+644,2025-06-10 18:00:00,59.51,Food,GourmetHub,New York,flagged,June,6,18,Tuesday,False
+645,2025-06-11 00:00:00,19.13,Travel,TechNow,New York,approved,June,6,0,Wednesday,False
+646,2025-06-11 06:00:00,331.81,Tech,GourmetHub,Los Angeles,declined,June,6,6,Wednesday,False
+647,2025-06-11 12:00:00,135.06,Travel,StayPremium,Houston,flagged,June,6,12,Wednesday,False
+648,2025-06-11 18:00:00,170.49,Healthcare,SkyBridge Travel,Miami,approved,June,6,18,Wednesday,False
+649,2025-06-12 00:00:00,233.51,Tech,GourmetHub,Houston,approved,June,6,0,Thursday,False
+650,2025-06-12 06:00:00,103.51,Tech,AirElite,Miami,approved,June,6,6,Thursday,False
+651,2025-06-12 12:00:00,13.64,Travel,RoadEasy,Los Angeles,approved,June,6,12,Thursday,False
+652,2025-06-12 18:00:00,115.54,Retail,TechNow,New York,approved,June,6,18,Thursday,False
+653,2025-06-13 00:00:00,132.59,Travel,AirElite,New York,flagged,June,6,0,Friday,False
+654,2025-06-13 06:00:00,205.23,Retail,GourmetHub,Houston,approved,June,6,6,Friday,False
+655,2025-06-13 12:00:00,84.76,Travel,StayPremium,New York,declined,June,6,12,Friday,False
+656,2025-06-13 18:00:00,20.47,Transport,SkyBridge Travel,Los Angeles,approved,June,6,18,Friday,False
+657,2025-06-14 00:00:00,50.06,Food,StyleVault,Houston,approved,June,6,0,Saturday,False
+658,2025-06-14 06:00:00,67.67,Retail,MediPlus,Miami,approved,June,6,6,Saturday,False
+659,2025-06-14 12:00:00,155.73,Retail,RoadEasy,New York,declined,June,6,12,Saturday,False
+660,2025-06-14 18:00:00,126.87,Retail,MediPlus,Chicago,approved,June,6,18,Saturday,False
+661,2025-06-15 00:00:00,66.03,Food,GourmetHub,New York,approved,June,6,0,Sunday,False
+662,2025-06-15 06:00:00,645.93,Food,RoadEasy,Miami,flagged,June,6,6,Sunday,True
+663,2025-06-15 12:00:00,139.62,Healthcare,RoadEasy,Houston,declined,June,6,12,Sunday,False
+664,2025-06-15 18:00:00,40.62,Retail,SkyBridge Travel,Miami,approved,June,6,18,Sunday,False
+665,2025-06-16 00:00:00,16.1,Transport,RoadEasy,Chicago,approved,June,6,0,Monday,False
+666,2025-06-16 06:00:00,24.88,Healthcare,TechNow,Los Angeles,declined,June,6,6,Monday,False
+667,2025-06-16 12:00:00,42.35,Travel,AirElite,New York,approved,June,6,12,Monday,False
+668,2025-06-16 18:00:00,26.27,Transport,AirElite,Houston,approved,June,6,18,Monday,False
+669,2025-06-17 00:00:00,30.97,Travel,AirElite,Los Angeles,approved,June,6,0,Tuesday,False
+670,2025-06-17 06:00:00,50.34,Tech,TechNow,Miami,approved,June,6,6,Tuesday,False
+671,2025-06-17 12:00:00,28.56,Retail,MediPlus,Houston,declined,June,6,12,Tuesday,False
+672,2025-06-17 18:00:00,340.61,Healthcare,SkyBridge Travel,Los Angeles,declined,June,6,18,Tuesday,False
+673,2025-06-18 00:00:00,12.55,Healthcare,RoadEasy,Houston,approved,June,6,0,Wednesday,False
+674,2025-06-18 06:00:00,111.51,Tech,TechNow,Chicago,approved,June,6,6,Wednesday,False
+675,2025-06-18 12:00:00,79.25,Tech,AirElite,Chicago,declined,June,6,12,Wednesday,False
+676,2025-06-18 18:00:00,605.8,Retail,GourmetHub,New York,flagged,June,6,18,Wednesday,True
+677,2025-06-19 00:00:00,17.82,Travel,StyleVault,New York,flagged,June,6,0,Thursday,False
+678,2025-06-19 06:00:00,76.09,Retail,RoadEasy,Chicago,approved,June,6,6,Thursday,False
+679,2025-06-19 12:00:00,523.36,Travel,TechNow,Houston,approved,June,6,12,Thursday,True
+680,2025-06-19 18:00:00,300.94,Tech,StayPremium,Chicago,approved,June,6,18,Thursday,False
+681,2025-06-20 00:00:00,254.8,Retail,TechNow,New York,approved,June,6,0,Friday,False
+682,2025-06-20 06:00:00,44.74,Transport,SkyBridge Travel,Chicago,approved,June,6,6,Friday,False
+683,2025-06-20 12:00:00,28.11,Food,SkyBridge Travel,Chicago,declined,June,6,12,Friday,False
+684,2025-06-20 18:00:00,165.68,Healthcare,TechNow,Houston,flagged,June,6,18,Friday,False
+685,2025-06-21 00:00:00,397.56,Travel,AirElite,Los Angeles,approved,June,6,0,Saturday,False
+686,2025-06-21 06:00:00,122.05,Healthcare,StyleVault,New York,flagged,June,6,6,Saturday,False
+687,2025-06-21 12:00:00,127.16,Transport,RoadEasy,Houston,declined,June,6,12,Saturday,False
+688,2025-06-21 18:00:00,49.27,Retail,SkyBridge Travel,Chicago,approved,June,6,18,Saturday,False
+689,2025-06-22 00:00:00,220.12,Food,RoadEasy,Chicago,declined,June,6,0,Sunday,False
+690,2025-06-22 06:00:00,31.06,Tech,AirElite,Los Angeles,declined,June,6,6,Sunday,False
+691,2025-06-22 12:00:00,58.66,Travel,RoadEasy,New York,flagged,June,6,12,Sunday,False
+692,2025-06-22 18:00:00,83.12,Food,GourmetHub,New York,approved,June,6,18,Sunday,False
+693,2025-06-23 00:00:00,106.27,Retail,SkyBridge Travel,Miami,declined,June,6,0,Monday,False
+694,2025-06-23 06:00:00,41.64,Travel,AirElite,New York,flagged,June,6,6,Monday,False
+695,2025-06-23 12:00:00,18.3,Retail,AirElite,Los Angeles,approved,June,6,12,Monday,False
+696,2025-06-23 18:00:00,141.48,Travel,StyleVault,Miami,approved,June,6,18,Monday,False
+697,2025-06-24 00:00:00,51.08,Travel,StyleVault,Miami,approved,June,6,0,Tuesday,False
+698,2025-06-24 06:00:00,130.57,Travel,GourmetHub,Chicago,approved,June,6,6,Tuesday,False
+699,2025-06-24 12:00:00,25.15,Transport,AirElite,Chicago,flagged,June,6,12,Tuesday,False
+700,2025-06-24 18:00:00,98.42,Food,MediPlus,New York,approved,June,6,18,Tuesday,False
+701,2025-06-25 00:00:00,114.08,Transport,AirElite,Miami,declined,June,6,0,Wednesday,False
+702,2025-06-25 06:00:00,7.98,Retail,StyleVault,Chicago,approved,June,6,6,Wednesday,False
+703,2025-06-25 12:00:00,61.56,Retail,MediPlus,Los Angeles,approved,June,6,12,Wednesday,False
+704,2025-06-25 18:00:00,21.65,Food,SkyBridge Travel,Chicago,flagged,June,6,18,Wednesday,False
+705,2025-06-26 00:00:00,9.82,Retail,SkyBridge Travel,Chicago,approved,June,6,0,Thursday,False
+706,2025-06-26 06:00:00,690.18,Travel,RoadEasy,Miami,approved,June,6,6,Thursday,True
+707,2025-06-26 12:00:00,58.37,Food,TechNow,Miami,approved,June,6,12,Thursday,False
+708,2025-06-26 18:00:00,249.01,Travel,StyleVault,Houston,approved,June,6,18,Thursday,False
+709,2025-06-27 00:00:00,44.08,Food,TechNow,Los Angeles,approved,June,6,0,Friday,False
+710,2025-06-27 06:00:00,171.62,Food,MediPlus,Miami,flagged,June,6,6,Friday,False
+711,2025-06-27 12:00:00,214.21,Travel,StyleVault,New York,flagged,June,6,12,Friday,False
+712,2025-06-27 18:00:00,135.82,Travel,GourmetHub,Los Angeles,flagged,June,6,18,Friday,False
+713,2025-06-28 00:00:00,95.68,Tech,AirElite,Los Angeles,declined,June,6,0,Saturday,False
+714,2025-06-28 06:00:00,79.61,Retail,GourmetHub,Miami,approved,June,6,6,Saturday,False
+715,2025-06-28 12:00:00,64.36,Travel,MediPlus,Los Angeles,approved,June,6,12,Saturday,False
+716,2025-06-28 18:00:00,397.88,Transport,StyleVault,Miami,flagged,June,6,18,Saturday,False
+717,2025-06-29 00:00:00,266.34,Travel,StayPremium,Chicago,flagged,June,6,0,Sunday,False
+718,2025-06-29 06:00:00,502.98,Tech,MediPlus,Houston,approved,June,6,6,Sunday,True
+719,2025-06-29 12:00:00,19.91,Transport,StayPremium,Chicago,flagged,June,6,12,Sunday,False
+720,2025-06-29 18:00:00,196.88,Travel,AirElite,Miami,declined,June,6,18,Sunday,False
+721,2025-06-30 00:00:00,417.92,Travel,SkyBridge Travel,Miami,declined,June,6,0,Monday,False
+722,2025-06-30 06:00:00,29.99,Travel,SkyBridge Travel,Chicago,flagged,June,6,6,Monday,False
+723,2025-06-30 12:00:00,10.32,Retail,MediPlus,New York,approved,June,6,12,Monday,False
+724,2025-06-30 18:00:00,202.71,Travel,TechNow,New York,approved,June,6,18,Monday,False
+725,2025-07-01 00:00:00,128.16,Tech,StyleVault,New York,approved,July,7,0,Tuesday,False
+726,2025-07-01 06:00:00,276.61,Travel,StyleVault,Miami,approved,July,7,6,Tuesday,False
+727,2025-07-01 12:00:00,22.58,Food,SkyBridge Travel,Los Angeles,flagged,July,7,12,Tuesday,False
+728,2025-07-01 18:00:00,237.91,Transport,RoadEasy,Miami,approved,July,7,18,Tuesday,False
+729,2025-07-02 00:00:00,33.78,Tech,GourmetHub,Los Angeles,declined,July,7,0,Wednesday,False
+730,2025-07-02 06:00:00,26.81,Food,RoadEasy,Chicago,approved,July,7,6,Wednesday,False
+731,2025-07-02 12:00:00,26.92,Retail,AirElite,Houston,approved,July,7,12,Wednesday,False
+732,2025-07-02 18:00:00,252.77,Food,GourmetHub,Los Angeles,approved,July,7,18,Wednesday,False
+733,2025-07-03 00:00:00,164.13,Food,GourmetHub,New York,approved,July,7,0,Thursday,False
+734,2025-07-03 06:00:00,111.06,Retail,MediPlus,Miami,approved,July,7,6,Thursday,False
+735,2025-07-03 12:00:00,66.67,Travel,SkyBridge Travel,Chicago,approved,July,7,12,Thursday,False
+736,2025-07-03 18:00:00,314.58,Healthcare,RoadEasy,New York,declined,July,7,18,Thursday,False
+737,2025-07-04 00:00:00,74.75,Retail,RoadEasy,Chicago,declined,July,7,0,Friday,False
+738,2025-07-04 06:00:00,254.41,Travel,SkyBridge Travel,Houston,approved,July,7,6,Friday,False
+739,2025-07-04 12:00:00,86.74,Retail,RoadEasy,Miami,approved,July,7,12,Friday,False
+740,2025-07-04 18:00:00,70.97,Retail,StayPremium,Miami,approved,July,7,18,Friday,False
+741,2025-07-05 00:00:00,93.17,Healthcare,SkyBridge Travel,Houston,flagged,July,7,0,Saturday,False
+742,2025-07-05 06:00:00,53.8,Tech,MediPlus,Miami,approved,July,7,6,Saturday,False
+743,2025-07-05 12:00:00,206.52,Tech,TechNow,Los Angeles,approved,July,7,12,Saturday,False
+744,2025-07-05 18:00:00,104.79,Travel,GourmetHub,Chicago,declined,July,7,18,Saturday,False
+745,2025-07-06 00:00:00,39.64,Retail,MediPlus,New York,approved,July,7,0,Sunday,False
+746,2025-07-06 06:00:00,344.75,Retail,StyleVault,Houston,flagged,July,7,6,Sunday,False
+747,2025-07-06 12:00:00,72.65,Travel,AirElite,Los Angeles,approved,July,7,12,Sunday,False
+748,2025-07-06 18:00:00,117.64,Travel,TechNow,New York,approved,July,7,18,Sunday,False
+749,2025-07-07 00:00:00,355.42,Tech,StyleVault,New York,approved,July,7,0,Monday,False
+750,2025-07-07 06:00:00,146.82,Travel,GourmetHub,Houston,approved,July,7,6,Monday,False
+751,2025-07-07 12:00:00,18.65,Food,RoadEasy,Los Angeles,declined,July,7,12,Monday,False
+752,2025-07-07 18:00:00,421.59,Travel,SkyBridge Travel,New York,declined,July,7,18,Monday,False
+753,2025-07-08 00:00:00,148.21,Travel,GourmetHub,New York,approved,July,7,0,Tuesday,False
+754,2025-07-08 06:00:00,61.17,Travel,MediPlus,Los Angeles,approved,July,7,6,Tuesday,False
+755,2025-07-08 12:00:00,22.5,Transport,AirElite,Miami,approved,July,7,12,Tuesday,False
+756,2025-07-08 18:00:00,237.0,Tech,MediPlus,New York,approved,July,7,18,Tuesday,False
+757,2025-07-09 00:00:00,145.17,Transport,TechNow,Chicago,approved,July,7,0,Wednesday,False
+758,2025-07-09 06:00:00,114.36,Retail,TechNow,Los Angeles,approved,July,7,6,Wednesday,False
+759,2025-07-09 12:00:00,336.5,Travel,AirElite,New York,approved,July,7,12,Wednesday,False
+760,2025-07-09 18:00:00,233.1,Food,StayPremium,Houston,approved,July,7,18,Wednesday,False
+761,2025-07-10 00:00:00,24.67,Retail,StyleVault,Chicago,flagged,July,7,0,Thursday,False
+762,2025-07-10 06:00:00,56.03,Healthcare,StyleVault,New York,flagged,July,7,6,Thursday,False
+763,2025-07-10 12:00:00,42.85,Travel,TechNow,Chicago,declined,July,7,12,Thursday,False
+764,2025-07-10 18:00:00,204.36,Retail,TechNow,Chicago,approved,July,7,18,Thursday,False
+765,2025-07-11 00:00:00,5.12,Travel,RoadEasy,Miami,declined,July,7,0,Friday,False
+766,2025-07-11 06:00:00,126.56,Retail,SkyBridge Travel,Chicago,approved,July,7,6,Friday,False
+767,2025-07-11 12:00:00,215.61,Tech,RoadEasy,Miami,flagged,July,7,12,Friday,False
+768,2025-07-11 18:00:00,314.05,Retail,RoadEasy,Los Angeles,approved,July,7,18,Friday,False
+769,2025-07-12 00:00:00,62.8,Retail,StayPremium,Miami,approved,July,7,0,Saturday,False
+770,2025-07-12 06:00:00,258.27,Retail,StyleVault,Houston,approved,July,7,6,Saturday,False
+771,2025-07-12 12:00:00,17.59,Retail,StayPremium,New York,approved,July,7,12,Saturday,False
+772,2025-07-12 18:00:00,281.06,Tech,StayPremium,Los Angeles,approved,July,7,18,Saturday,False
+773,2025-07-13 00:00:00,20.46,Healthcare,AirElite,Los Angeles,approved,July,7,0,Sunday,False
+774,2025-07-13 06:00:00,75.95,Transport,StyleVault,Houston,approved,July,7,6,Sunday,False
+775,2025-07-13 12:00:00,239.4,Tech,SkyBridge Travel,Miami,approved,July,7,12,Sunday,False
+776,2025-07-13 18:00:00,24.36,Retail,MediPlus,New York,declined,July,7,18,Sunday,False
+777,2025-07-14 00:00:00,39.06,Tech,TechNow,Miami,approved,July,7,0,Monday,False
+778,2025-07-14 06:00:00,192.16,Retail,TechNow,Chicago,approved,July,7,6,Monday,False
+779,2025-07-14 12:00:00,190.96,Travel,SkyBridge Travel,Miami,approved,July,7,12,Monday,False
+780,2025-07-14 18:00:00,153.73,Healthcare,StayPremium,Los Angeles,approved,July,7,18,Monday,False
+781,2025-07-15 00:00:00,177.6,Travel,RoadEasy,New York,approved,July,7,0,Tuesday,False
+782,2025-07-15 06:00:00,117.37,Healthcare,AirElite,Miami,flagged,July,7,6,Tuesday,False
+783,2025-07-15 12:00:00,43.51,Retail,StayPremium,New York,flagged,July,7,12,Tuesday,False
+784,2025-07-15 18:00:00,63.63,Food,TechNow,New York,flagged,July,7,18,Tuesday,False
+785,2025-07-16 00:00:00,30.06,Food,GourmetHub,Chicago,approved,July,7,0,Wednesday,False
+786,2025-07-16 06:00:00,358.63,Healthcare,RoadEasy,Chicago,approved,July,7,6,Wednesday,False
+787,2025-07-16 12:00:00,131.34,Food,TechNow,Los Angeles,declined,July,7,12,Wednesday,False
+788,2025-07-16 18:00:00,76.84,Food,GourmetHub,Houston,approved,July,7,18,Wednesday,False
+789,2025-07-17 00:00:00,92.99,Travel,StayPremium,New York,approved,July,7,0,Thursday,False
+790,2025-07-17 06:00:00,441.42,Food,SkyBridge Travel,Houston,approved,July,7,6,Thursday,True
+791,2025-07-17 12:00:00,24.97,Travel,SkyBridge Travel,Los Angeles,approved,July,7,12,Thursday,False
+792,2025-07-17 18:00:00,132.37,Tech,RoadEasy,New York,approved,July,7,18,Thursday,False
+793,2025-07-18 00:00:00,105.75,Food,TechNow,New York,approved,July,7,0,Friday,False
+794,2025-07-18 06:00:00,141.8,Tech,StyleVault,Houston,approved,July,7,6,Friday,False
+795,2025-07-18 12:00:00,2.74,Travel,GourmetHub,Miami,approved,July,7,12,Friday,False
+796,2025-07-18 18:00:00,308.5,Travel,AirElite,Chicago,approved,July,7,18,Friday,False
+797,2025-07-19 00:00:00,403.5,Tech,TechNow,Miami,flagged,July,7,0,Saturday,False
+798,2025-07-19 06:00:00,124.91,Travel,AirElite,Houston,approved,July,7,6,Saturday,False
+799,2025-07-19 12:00:00,178.93,Travel,TechNow,Chicago,approved,July,7,12,Saturday,False
+800,2025-07-19 18:00:00,383.62,Travel,StyleVault,Miami,approved,July,7,18,Saturday,False
+801,2025-07-20 00:00:00,184.26,Transport,StyleVault,Chicago,declined,July,7,0,Sunday,False
+802,2025-07-20 06:00:00,24.83,Tech,RoadEasy,New York,approved,July,7,6,Sunday,False
+803,2025-07-20 12:00:00,128.81,Retail,RoadEasy,Miami,approved,July,7,12,Sunday,False
+804,2025-07-20 18:00:00,139.98,Retail,StyleVault,Chicago,declined,July,7,18,Sunday,False
+805,2025-07-21 00:00:00,82.78,Retail,MediPlus,Chicago,declined,July,7,0,Monday,False
+806,2025-07-21 06:00:00,200.02,Tech,StyleVault,Chicago,flagged,July,7,6,Monday,False
+807,2025-07-21 12:00:00,408.55,Food,SkyBridge Travel,Miami,declined,July,7,12,Monday,False
+808,2025-07-21 18:00:00,389.68,Travel,SkyBridge Travel,Los Angeles,approved,July,7,18,Monday,False
+809,2025-07-22 00:00:00,89.9,Travel,MediPlus,Miami,approved,July,7,0,Tuesday,False
+810,2025-07-22 06:00:00,18.03,Travel,StayPremium,Houston,approved,July,7,6,Tuesday,False
+811,2025-07-22 12:00:00,628.38,Food,GourmetHub,Miami,approved,July,7,12,Tuesday,True
+812,2025-07-22 18:00:00,273.86,Tech,StayPremium,Chicago,approved,July,7,18,Tuesday,False
+813,2025-07-23 00:00:00,19.97,Travel,AirElite,New York,declined,July,7,0,Wednesday,False
+814,2025-07-23 06:00:00,380.45,Travel,StayPremium,Miami,declined,July,7,6,Wednesday,False
+815,2025-07-23 12:00:00,305.91,Travel,TechNow,Miami,flagged,July,7,12,Wednesday,False
+816,2025-07-23 18:00:00,109.73,Transport,StayPremium,Chicago,approved,July,7,18,Wednesday,False
+817,2025-07-24 00:00:00,134.21,Retail,TechNow,New York,approved,July,7,0,Thursday,False
+818,2025-07-24 06:00:00,76.37,Tech,MediPlus,New York,flagged,July,7,6,Thursday,False
+819,2025-07-24 12:00:00,8.45,Food,SkyBridge Travel,Houston,approved,July,7,12,Thursday,False
+820,2025-07-24 18:00:00,61.24,Retail,RoadEasy,Miami,declined,July,7,18,Thursday,False
+821,2025-07-25 00:00:00,243.57,Travel,TechNow,New York,flagged,July,7,0,Friday,False
+822,2025-07-25 06:00:00,0.7,Travel,SkyBridge Travel,New York,flagged,July,7,6,Friday,False
+823,2025-07-25 12:00:00,60.86,Food,GourmetHub,Los Angeles,approved,July,7,12,Friday,False
+824,2025-07-25 18:00:00,76.17,Tech,AirElite,Los Angeles,declined,July,7,18,Friday,False
+825,2025-07-26 00:00:00,115.63,Food,GourmetHub,New York,declined,July,7,0,Saturday,False
+826,2025-07-26 06:00:00,378.59,Food,MediPlus,Houston,flagged,July,7,6,Saturday,False
+827,2025-07-26 12:00:00,63.78,Travel,StayPremium,New York,declined,July,7,12,Saturday,False
+828,2025-07-26 18:00:00,63.92,Transport,StayPremium,Chicago,flagged,July,7,18,Saturday,False
+829,2025-07-27 00:00:00,200.63,Tech,StyleVault,Miami,approved,July,7,0,Sunday,False
+830,2025-07-27 06:00:00,90.28,Retail,StyleVault,Houston,flagged,July,7,6,Sunday,False
+831,2025-07-27 12:00:00,38.16,Transport,StyleVault,Chicago,declined,July,7,12,Sunday,False
+832,2025-07-27 18:00:00,90.34,Food,GourmetHub,Houston,declined,July,7,18,Sunday,False
+833,2025-07-28 00:00:00,22.77,Food,TechNow,Chicago,flagged,July,7,0,Monday,False
+834,2025-07-28 06:00:00,29.11,Tech,AirElite,Miami,flagged,July,7,6,Monday,False
+835,2025-07-28 12:00:00,103.48,Tech,StyleVault,Miami,flagged,July,7,12,Monday,False
+836,2025-07-28 18:00:00,81.43,Food,MediPlus,Los Angeles,approved,July,7,18,Monday,False
+837,2025-07-29 00:00:00,369.49,Travel,MediPlus,Chicago,declined,July,7,0,Tuesday,False
+838,2025-07-29 06:00:00,67.51,Retail,StyleVault,Los Angeles,declined,July,7,6,Tuesday,False
+839,2025-07-29 12:00:00,130.34,Transport,StayPremium,Chicago,approved,July,7,12,Tuesday,False
+840,2025-07-29 18:00:00,150.06,Travel,StyleVault,Los Angeles,flagged,July,7,18,Tuesday,False
+841,2025-07-30 00:00:00,1.98,Retail,AirElite,Miami,approved,July,7,0,Wednesday,False
+842,2025-07-30 06:00:00,163.39,Retail,StyleVault,Houston,flagged,July,7,6,Wednesday,False
+843,2025-07-30 12:00:00,29.41,Retail,AirElite,Los Angeles,flagged,July,7,12,Wednesday,False
+844,2025-07-30 18:00:00,486.9,Food,MediPlus,Chicago,approved,July,7,18,Wednesday,True
+845,2025-07-31 00:00:00,24.14,Transport,StyleVault,Chicago,declined,July,7,0,Thursday,False
+846,2025-07-31 06:00:00,80.33,Travel,GourmetHub,Miami,flagged,July,7,6,Thursday,False
+847,2025-07-31 12:00:00,13.38,Travel,RoadEasy,Chicago,declined,July,7,12,Thursday,False
+848,2025-07-31 18:00:00,865.21,Travel,GourmetHub,New York,approved,July,7,18,Thursday,True
+849,2025-08-01 00:00:00,104.63,Healthcare,MediPlus,Houston,declined,August,8,0,Friday,False
+850,2025-08-01 06:00:00,135.72,Food,AirElite,Los Angeles,approved,August,8,6,Friday,False
+851,2025-08-01 12:00:00,10.41,Retail,GourmetHub,Houston,approved,August,8,12,Friday,False
+852,2025-08-01 18:00:00,207.92,Tech,AirElite,Miami,flagged,August,8,18,Friday,False
+853,2025-08-02 00:00:00,35.34,Healthcare,GourmetHub,Los Angeles,declined,August,8,0,Saturday,False
+854,2025-08-02 06:00:00,342.5,Healthcare,GourmetHub,Los Angeles,flagged,August,8,6,Saturday,False
+855,2025-08-02 12:00:00,34.44,Healthcare,AirElite,New York,approved,August,8,12,Saturday,False
+856,2025-08-02 18:00:00,31.74,Travel,TechNow,Miami,approved,August,8,18,Saturday,False
+857,2025-08-03 00:00:00,5.59,Tech,GourmetHub,Chicago,flagged,August,8,0,Sunday,False
+858,2025-08-03 06:00:00,95.82,Retail,StyleVault,New York,approved,August,8,6,Sunday,False
+859,2025-08-03 12:00:00,124.81,Healthcare,RoadEasy,New York,flagged,August,8,12,Sunday,False
+860,2025-08-03 18:00:00,10.2,Tech,MediPlus,Houston,declined,August,8,18,Sunday,False
+861,2025-08-04 00:00:00,224.1,Tech,TechNow,Houston,declined,August,8,0,Monday,False
+862,2025-08-04 06:00:00,90.58,Food,AirElite,Houston,declined,August,8,6,Monday,False
+863,2025-08-04 12:00:00,111.47,Travel,TechNow,New York,declined,August,8,12,Monday,False
+864,2025-08-04 18:00:00,87.18,Food,SkyBridge Travel,Chicago,approved,August,8,18,Monday,False
+865,2025-08-05 00:00:00,76.81,Transport,SkyBridge Travel,Los Angeles,approved,August,8,0,Tuesday,False
+866,2025-08-05 06:00:00,123.02,Transport,GourmetHub,Houston,approved,August,8,6,Tuesday,False
+867,2025-08-05 12:00:00,25.31,Travel,GourmetHub,Chicago,declined,August,8,12,Tuesday,False
+868,2025-08-05 18:00:00,30.12,Travel,StyleVault,Miami,approved,August,8,18,Tuesday,False
+869,2025-08-06 00:00:00,296.84,Travel,RoadEasy,Houston,declined,August,8,0,Wednesday,False
+870,2025-08-06 06:00:00,438.14,Tech,MediPlus,Los Angeles,approved,August,8,6,Wednesday,True
+871,2025-08-06 12:00:00,70.1,Tech,TechNow,Miami,declined,August,8,12,Wednesday,False
+872,2025-08-06 18:00:00,47.36,Travel,SkyBridge Travel,Miami,approved,August,8,18,Wednesday,False
+873,2025-08-07 00:00:00,154.92,Food,GourmetHub,Los Angeles,approved,August,8,0,Thursday,False
+874,2025-08-07 06:00:00,78.82,Healthcare,StayPremium,Houston,flagged,August,8,6,Thursday,False
+875,2025-08-07 12:00:00,3.86,Tech,StayPremium,New York,declined,August,8,12,Thursday,False
+876,2025-08-07 18:00:00,25.47,Food,MediPlus,Los Angeles,approved,August,8,18,Thursday,False
+877,2025-08-08 00:00:00,188.8,Food,TechNow,Los Angeles,flagged,August,8,0,Friday,False
+878,2025-08-08 06:00:00,161.35,Food,GourmetHub,Los Angeles,approved,August,8,6,Friday,False
+879,2025-08-08 12:00:00,4.12,Retail,GourmetHub,Miami,declined,August,8,12,Friday,False
+880,2025-08-08 18:00:00,37.65,Food,SkyBridge Travel,Chicago,flagged,August,8,18,Friday,False
+881,2025-08-09 00:00:00,39.41,Tech,SkyBridge Travel,New York,declined,August,8,0,Saturday,False
+882,2025-08-09 06:00:00,167.16,Healthcare,GourmetHub,Houston,approved,August,8,6,Saturday,False
+883,2025-08-09 12:00:00,2.99,Food,AirElite,Houston,flagged,August,8,12,Saturday,False
+884,2025-08-09 18:00:00,16.49,Tech,GourmetHub,Chicago,approved,August,8,18,Saturday,False
+885,2025-08-10 00:00:00,241.35,Travel,MediPlus,Los Angeles,approved,August,8,0,Sunday,False
+886,2025-08-10 06:00:00,29.5,Retail,GourmetHub,New York,approved,August,8,6,Sunday,False
+887,2025-08-10 12:00:00,158.65,Travel,StyleVault,Houston,declined,August,8,12,Sunday,False
+888,2025-08-10 18:00:00,40.81,Travel,RoadEasy,Houston,approved,August,8,18,Sunday,False
+889,2025-08-11 00:00:00,15.71,Tech,StyleVault,Los Angeles,approved,August,8,0,Monday,False
+890,2025-08-11 06:00:00,41.79,Transport,StyleVault,Chicago,approved,August,8,6,Monday,False
+891,2025-08-11 12:00:00,192.16,Travel,AirElite,New York,approved,August,8,12,Monday,False
+892,2025-08-11 18:00:00,290.38,Retail,AirElite,Chicago,flagged,August,8,18,Monday,False
+893,2025-08-12 00:00:00,265.99,Tech,StayPremium,Chicago,flagged,August,8,0,Tuesday,False
+894,2025-08-12 06:00:00,75.92,Travel,GourmetHub,New York,approved,August,8,6,Tuesday,False
+895,2025-08-12 12:00:00,165.43,Food,StyleVault,New York,flagged,August,8,12,Tuesday,False
+896,2025-08-12 18:00:00,34.41,Tech,AirElite,Houston,approved,August,8,18,Tuesday,False
+897,2025-08-13 00:00:00,52.04,Food,SkyBridge Travel,Houston,approved,August,8,0,Wednesday,False
+898,2025-08-13 06:00:00,339.99,Travel,GourmetHub,New York,declined,August,8,6,Wednesday,False
+899,2025-08-13 12:00:00,1.96,Retail,MediPlus,Miami,approved,August,8,12,Wednesday,False
+900,2025-08-13 18:00:00,13.41,Tech,RoadEasy,Houston,approved,August,8,18,Wednesday,False
+901,2025-08-14 00:00:00,34.96,Food,TechNow,Miami,approved,August,8,0,Thursday,False
+902,2025-08-14 06:00:00,4.03,Travel,GourmetHub,New York,declined,August,8,6,Thursday,False
+903,2025-08-14 12:00:00,30.03,Tech,TechNow,Houston,approved,August,8,12,Thursday,False
+904,2025-08-14 18:00:00,131.22,Travel,StyleVault,Chicago,flagged,August,8,18,Thursday,False
+905,2025-08-15 00:00:00,82.08,Tech,RoadEasy,New York,approved,August,8,0,Friday,False
+906,2025-08-15 06:00:00,334.78,Travel,TechNow,Los Angeles,approved,August,8,6,Friday,False
+907,2025-08-15 12:00:00,255.1,Transport,StyleVault,Miami,approved,August,8,12,Friday,False
+908,2025-08-15 18:00:00,62.74,Retail,SkyBridge Travel,New York,flagged,August,8,18,Friday,False
+909,2025-08-16 00:00:00,45.05,Retail,TechNow,New York,declined,August,8,0,Saturday,False
+910,2025-08-16 06:00:00,71.63,Travel,RoadEasy,Houston,approved,August,8,6,Saturday,False
+911,2025-08-16 12:00:00,133.85,Retail,StayPremium,Houston,approved,August,8,12,Saturday,False
+912,2025-08-16 18:00:00,46.81,Healthcare,GourmetHub,Houston,declined,August,8,18,Saturday,False
+913,2025-08-17 00:00:00,146.78,Transport,StyleVault,Los Angeles,approved,August,8,0,Sunday,False
+914,2025-08-17 06:00:00,79.0,Retail,GourmetHub,Houston,approved,August,8,6,Sunday,False
+915,2025-08-17 12:00:00,120.46,Retail,RoadEasy,New York,approved,August,8,12,Sunday,False
+916,2025-08-17 18:00:00,85.94,Tech,AirElite,Houston,declined,August,8,18,Sunday,False
+917,2025-08-18 00:00:00,52.32,Healthcare,StyleVault,Chicago,approved,August,8,0,Monday,False
+918,2025-08-18 06:00:00,444.79,Food,TechNow,Houston,declined,August,8,6,Monday,True
+919,2025-08-18 12:00:00,216.34,Retail,StyleVault,Los Angeles,flagged,August,8,12,Monday,False
+920,2025-08-18 18:00:00,22.64,Retail,GourmetHub,Chicago,approved,August,8,18,Monday,False
+921,2025-08-19 00:00:00,304.28,Tech,SkyBridge Travel,New York,approved,August,8,0,Tuesday,False
+922,2025-08-19 06:00:00,100.25,Travel,StyleVault,New York,approved,August,8,6,Tuesday,False
+923,2025-08-19 12:00:00,337.43,Food,TechNow,Miami,declined,August,8,12,Tuesday,False
+924,2025-08-19 18:00:00,241.31,Retail,AirElite,Chicago,declined,August,8,18,Tuesday,False
+925,2025-08-20 00:00:00,83.06,Tech,StayPremium,Miami,approved,August,8,0,Wednesday,False
+926,2025-08-20 06:00:00,3.41,Travel,MediPlus,Chicago,approved,August,8,6,Wednesday,False
+927,2025-08-20 12:00:00,46.94,Food,SkyBridge Travel,Chicago,approved,August,8,12,Wednesday,False
+928,2025-08-20 18:00:00,117.01,Retail,StayPremium,Los Angeles,approved,August,8,18,Wednesday,False
+929,2025-08-21 00:00:00,150.55,Food,AirElite,Miami,approved,August,8,0,Thursday,False
+930,2025-08-21 06:00:00,44.74,Travel,StyleVault,Los Angeles,approved,August,8,6,Thursday,False
+931,2025-08-21 12:00:00,22.51,Food,GourmetHub,Chicago,flagged,August,8,12,Thursday,False
+932,2025-08-21 18:00:00,270.21,Food,RoadEasy,New York,approved,August,8,18,Thursday,False
+933,2025-08-22 00:00:00,624.09,Food,GourmetHub,Chicago,declined,August,8,0,Friday,True
+934,2025-08-22 06:00:00,111.88,Food,StayPremium,Los Angeles,approved,August,8,6,Friday,False
+935,2025-08-22 12:00:00,28.25,Food,TechNow,Miami,approved,August,8,12,Friday,False
+936,2025-08-22 18:00:00,47.68,Tech,GourmetHub,Miami,approved,August,8,18,Friday,False
+937,2025-08-23 00:00:00,2.78,Travel,SkyBridge Travel,Los Angeles,approved,August,8,0,Saturday,False
+938,2025-08-23 06:00:00,368.53,Healthcare,GourmetHub,Miami,approved,August,8,6,Saturday,False
+939,2025-08-23 12:00:00,18.79,Retail,TechNow,Houston,approved,August,8,12,Saturday,False
+940,2025-08-23 18:00:00,128.89,Travel,MediPlus,New York,approved,August,8,18,Saturday,False
+941,2025-08-24 00:00:00,48.04,Travel,StyleVault,New York,declined,August,8,0,Sunday,False
+942,2025-08-24 06:00:00,121.18,Retail,RoadEasy,New York,declined,August,8,6,Sunday,False
+943,2025-08-24 12:00:00,158.08,Tech,StayPremium,Miami,declined,August,8,12,Sunday,False
+944,2025-08-24 18:00:00,265.57,Tech,StyleVault,Miami,approved,August,8,18,Sunday,False
+945,2025-08-25 00:00:00,34.68,Tech,GourmetHub,Chicago,flagged,August,8,0,Monday,False
+946,2025-08-25 06:00:00,1.66,Food,AirElite,Chicago,approved,August,8,6,Monday,False
+947,2025-08-25 12:00:00,22.08,Retail,StyleVault,New York,declined,August,8,12,Monday,False
+948,2025-08-25 18:00:00,345.42,Travel,MediPlus,Houston,approved,August,8,18,Monday,False
+949,2025-08-26 00:00:00,310.59,Retail,GourmetHub,Chicago,approved,August,8,0,Tuesday,False
+950,2025-08-26 06:00:00,136.48,Retail,RoadEasy,Chicago,flagged,August,8,6,Tuesday,False
+951,2025-08-26 12:00:00,137.64,Travel,TechNow,Miami,approved,August,8,12,Tuesday,False
+952,2025-08-26 18:00:00,164.06,Travel,MediPlus,Houston,approved,August,8,18,Tuesday,False
+953,2025-08-27 00:00:00,28.92,Food,GourmetHub,New York,flagged,August,8,0,Wednesday,False
+954,2025-08-27 06:00:00,368.73,Tech,MediPlus,Chicago,flagged,August,8,6,Wednesday,False
+955,2025-08-27 12:00:00,81.39,Transport,StyleVault,Houston,approved,August,8,12,Wednesday,False
+956,2025-08-27 18:00:00,72.47,Transport,RoadEasy,Houston,declined,August,8,18,Wednesday,False
+957,2025-08-28 00:00:00,109.76,Food,TechNow,New York,approved,August,8,0,Thursday,False
+958,2025-08-28 06:00:00,7.22,Retail,GourmetHub,Houston,approved,August,8,6,Thursday,False
+959,2025-08-28 12:00:00,27.28,Food,SkyBridge Travel,Houston,approved,August,8,12,Thursday,False
+960,2025-08-28 18:00:00,200.93,Tech,StayPremium,Houston,approved,August,8,18,Thursday,False
+961,2025-08-29 00:00:00,12.96,Travel,TechNow,Chicago,approved,August,8,0,Friday,False
+962,2025-08-29 06:00:00,138.63,Retail,SkyBridge Travel,New York,approved,August,8,6,Friday,False
+963,2025-08-29 12:00:00,42.23,Healthcare,MediPlus,Houston,approved,August,8,12,Friday,False
+964,2025-08-29 18:00:00,73.97,Retail,AirElite,Houston,approved,August,8,18,Friday,False
+965,2025-08-30 00:00:00,51.1,Food,TechNow,Chicago,declined,August,8,0,Saturday,False
+966,2025-08-30 06:00:00,65.93,Food,MediPlus,New York,approved,August,8,6,Saturday,False
+967,2025-08-30 12:00:00,190.43,Travel,SkyBridge Travel,Miami,declined,August,8,12,Saturday,False
+968,2025-08-30 18:00:00,52.89,Retail,StyleVault,Chicago,approved,August,8,18,Saturday,False
+969,2025-08-31 00:00:00,125.35,Retail,StyleVault,New York,approved,August,8,0,Sunday,False
+970,2025-08-31 06:00:00,96.95,Travel,AirElite,Houston,approved,August,8,6,Sunday,False
+971,2025-08-31 12:00:00,163.45,Travel,StayPremium,New York,approved,August,8,12,Sunday,False
+972,2025-08-31 18:00:00,414.29,Healthcare,TechNow,New York,approved,August,8,18,Sunday,False
+973,2025-09-01 00:00:00,197.84,Travel,TechNow,New York,declined,September,9,0,Monday,False
+974,2025-09-01 06:00:00,36.3,Food,TechNow,Miami,declined,September,9,6,Monday,False
+975,2025-09-01 12:00:00,4.75,Retail,StayPremium,New York,approved,September,9,12,Monday,False
+976,2025-09-01 18:00:00,45.63,Transport,MediPlus,Miami,approved,September,9,18,Monday,False
+977,2025-09-02 00:00:00,135.61,Travel,RoadEasy,Houston,approved,September,9,0,Tuesday,False
+978,2025-09-02 06:00:00,7.92,Retail,RoadEasy,Miami,declined,September,9,6,Tuesday,False
+979,2025-09-02 12:00:00,102.89,Healthcare,AirElite,Houston,declined,September,9,12,Tuesday,False
+980,2025-09-02 18:00:00,136.26,Healthcare,TechNow,Houston,approved,September,9,18,Tuesday,False
+981,2025-09-03 00:00:00,61.02,Travel,MediPlus,Miami,approved,September,9,0,Wednesday,False
+982,2025-09-03 06:00:00,221.05,Tech,StyleVault,Chicago,approved,September,9,6,Wednesday,False
+983,2025-09-03 12:00:00,16.91,Retail,SkyBridge Travel,Los Angeles,approved,September,9,12,Wednesday,False
+984,2025-09-03 18:00:00,11.72,Retail,MediPlus,New York,flagged,September,9,18,Wednesday,False
+985,2025-09-04 00:00:00,195.4,Travel,StayPremium,Los Angeles,declined,September,9,0,Thursday,False
+986,2025-09-04 06:00:00,102.63,Travel,RoadEasy,New York,flagged,September,9,6,Thursday,False
+987,2025-09-04 12:00:00,174.91,Tech,RoadEasy,New York,declined,September,9,12,Thursday,False
+988,2025-09-04 18:00:00,85.59,Retail,StyleVault,Houston,declined,September,9,18,Thursday,False
+989,2025-09-05 00:00:00,42.43,Retail,StyleVault,New York,flagged,September,9,0,Friday,False
+990,2025-09-05 06:00:00,256.47,Tech,StayPremium,New York,flagged,September,9,6,Friday,False
+991,2025-09-05 12:00:00,240.98,Tech,SkyBridge Travel,Miami,approved,September,9,12,Friday,False
+992,2025-09-05 18:00:00,177.97,Travel,StyleVault,Los Angeles,flagged,September,9,18,Friday,False
+993,2025-09-06 00:00:00,47.65,Food,AirElite,Miami,approved,September,9,0,Saturday,False
+994,2025-09-06 06:00:00,133.82,Travel,SkyBridge Travel,New York,approved,September,9,6,Saturday,False
+995,2025-09-06 12:00:00,67.17,Tech,StyleVault,Houston,approved,September,9,12,Saturday,False
+996,2025-09-06 18:00:00,14.41,Food,GourmetHub,Miami,declined,September,9,18,Saturday,False
+997,2025-09-07 00:00:00,373.9,Transport,MediPlus,Miami,declined,September,9,0,Sunday,False
+998,2025-09-07 06:00:00,22.07,Travel,StyleVault,Chicago,flagged,September,9,6,Sunday,False
+999,2025-09-07 12:00:00,450.07,Travel,AirElite,New York,declined,September,9,12,Sunday,True
+1000,2025-09-07 18:00:00,88.59,Retail,TechNow,Houston,flagged,September,9,18,Sunday,False
